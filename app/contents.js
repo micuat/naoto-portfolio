@@ -1,6 +1,53 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("May 8, 2023"),
+    title: "Digital Corporealities",
+    type: ["panel"],
+    topic: [""],
+    collab: ["Naoto Hieda"],
+    venue: "PACT Zollverein (Germany)",
+    // image: "",
+    // links: ["https://hydra-hauptsachefrei-2023-workshop.glitch.me/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("April 22, 2023"),
+    title: "Hands-On: Introduction to Live-Coding with Hydra",
+    type: ["workshop"],
+    topic: [""],
+    collab: ["Naoto Hieda"],
+    venue: "Hauptsache Frei (Germany)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/photo1682454956.jpeg?v=1683810904398",
+    links: ["https://hydra-hauptsachefrei-2023-workshop.glitch.me/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("April 19, 2023"),
+    title: "Speculation Unit",
+    type: ["workshop"],
+    topic: [""],
+    collab: ["elisELIS", "Shahrzad Nazarpour", "Tam Thi Pham", "Sarah Fartuun Heinze", "Sarah Wenzinger", "Jeremy Bailey", "Naoto Hieda", "Jeanne Charlotte Vogt"],
+    venue: "Hauptsache Frei (Germany)",
+    // image: "",
+    links: ["https://aromatic-luminous-chicken.glitch.me/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("March 4, 2023"),
+    title: "solo.glitches.me",
+    type: ["performance"],
+    topic: ["net art"],
+    collab: ["Naoto Hieda"],
+    venue: "#TakeMoreCare (Germany)",
+    image: "https://bild.glitches.me/images/2023/03/09/wannacomecloser_naoto.md.jpg",
+    desc: html`
+    `
+  },
+  {
     start: new Date("March 1, 2023"),
     title: "soup.glitches.me",
     type: ["installation"],
