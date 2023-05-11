@@ -21,7 +21,7 @@ var sc = [
     venue: "Hauptsache Frei (Germany)",
     image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/photo1682454956.jpeg?v=1683810904398",
     links: ["https://hydra-hauptsachefrei-2023-workshop.glitch.me/"],
-    desc: html`
+    desc: html`Photo: Bente Stachowske
     `
   },
   {
@@ -31,7 +31,7 @@ var sc = [
     topic: [""],
     collab: ["elisELIS", "Shahrzad Nazarpour", "Tam Thi Pham", "Sarah Fartuun Heinze", "Sarah Wenzinger", "Jeremy Bailey", "Naoto Hieda", "Jeanne Charlotte Vogt"],
     venue: "Hauptsache Frei (Germany)",
-    // image: "",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/20230422_190312.jpg?v=1683811224662",
     links: ["https://aromatic-luminous-chicken.glitch.me/"],
     desc: html`
     `

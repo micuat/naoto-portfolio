@@ -41,6 +41,7 @@ module.exports = function(state, emit) {
   const filtersY = [];
   for (const t of [
     "all time",
+    "2023",
     "2022",
     "2021",
     "2020",
