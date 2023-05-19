@@ -7,7 +7,7 @@ var sc = [
     topic: [""],
     collab: ["Naoto Hieda"],
     venue: "PACT Zollverein (Germany)",
-    // image: "",
+    image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
     // links: ["https://hydra-hauptsachefrei-2023-workshop.glitch.me/"],
     desc: html`
     `
