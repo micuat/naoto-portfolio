@@ -12,7 +12,8 @@
     "static-server": "^3.0.0",
     "watchify": "^3.11.1",
     "choo": "^7.1.0",
-    "hydra-synth": "1.2.*"
+    "hydra-synth": "1.2.*",
+    "@emotion/css": "^11.11.0"
   },
   "engines": {
     "node": "8.1.x"
