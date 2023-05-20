@@ -26,12 +26,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
-.venue, .type, .topic {
-  font-size: 12pt;
-}
-
 a {
   color: black;
 }
