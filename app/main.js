@@ -47,9 +47,11 @@ const mainCss = css`
     }
   }
 }
+`;
 
-
-.type {
+const filterCss = css`
+div {
+  font-size: 0.75em;
   p {
     margin-right: 0.3em;
     margin-top: 0.1em;
@@ -65,28 +67,10 @@ const mainCss = css`
   p.year {
     background-color: cornflowerblue;
   }
-}
 
-.type .selected {
-  border: solid rgba(0, 0, 0, 1);
-}
-
-.topic > p {
-  margin-right: 0.5em;
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
-  white-space: pre;
-  float: left;
-  padding: 0.6em;
-
-  border: solid black;
-  border-radius: 25px;
-  background-color: aliceblue;
-  color: black;
-}
-
-.clearer {
-  
+  .selected {
+    border: solid rgba(0, 0, 0, 1);
+  }
 }
 `;
 
@@ -94,66 +78,75 @@ const mainCss = css`
 module.exports = function(state, emit) {
   emit("DOMTitleChange", `Works: Naoto Hieda`);
 
-
-  const filters = [];
-  if (state.filter === undefined) {
-    state.filter = { tag: "all", year: "all time" };
-    if (state.query.tag !== undefined) {
-      state.filter.tag = state.query.tag;
+  let filterDom;
+  {
+    const filters = [];
+    if (state.filter === undefined) {
+      state.filter = { tag: "all", year: "all time" };
+      if (state.query.tag !== undefined) {
+        state.filter.tag = state.query.tag;
+      }
+      if (state.query.year !== undefined) {
+        state.filter.year = state.query.year;
+      }
     }
-    if (state.query.year !== undefined) {
-      state.filter.year = state.query.year;
-    }
-  }
 
-  for (const t of state.types) {
-    const selected =
-      state.filter.tag == undefined
-        ? ""
-        : state.filter.tag == t.t
-        ? "selected"
-        : "";
+    for (const t of state.types) {
+      const selected =
+        state.filter.tag == undefined
+          ? ""
+          : state.filter.tag == t.t
+          ? "selected"
+          : "";
+      filters.push(
+        html`
+          <p onclick="${filterTag}" class="${t.t} ${selected}">${t.t}</p>
+        `
+      );
+    }
+
     filters.push(
       html`
-        <p onclick="${filterTag}" class="${t.t} ${selected}">${t.t}</p>
+        <div class=${ css`clear: both;` }></div>
       `
     );
+
+    const filtersY = [];
+    for (const t of [
+      "all time",
+      "2023",
+      "2022",
+      "2021",
+      "2020",
+      "2019",
+      "2018",
+      "2017",
+      "2016",
+      "2015",
+      "2014"
+    ]) {
+      const selected =
+        state.filter.year == undefined
+          ? ""
+          : state.filter.year == t
+          ? "selected"
+          : "";
+      filters.push(
+        html`
+          <p onclick="${filterYear}" class="${t} ${selected} year">${t}</p>
+        `
+      );
+    }
+    
+    filterDom = html`
+    <div class=${ filterCss }>
+      Filter by
+      <div>${filters}</div>
+    </div>`;
   }
 
-  filters.push(
-    html`
-      <div class=${ css`clear: both;` }></div>
-    `
-  );
+  const contents = filter(state.schedule, state.filter).map(e => e.dom);
 
-  const filtersY = [];
-  for (const t of [
-    "all time",
-    "2023",
-    "2022",
-    "2021",
-    "2020",
-    "2019",
-    "2018",
-    "2017",
-    "2016",
-    "2015",
-    "2014"
-  ]) {
-    const selected =
-      state.filter.year == undefined
-        ? ""
-        : state.filter.year == t
-        ? "selected"
-        : "";
-    filters.push(
-      html`
-        <p onclick="${filterYear}" class="${t} ${selected} year">${t}</p>
-      `
-    );
-  }
-  // console.log(state.schedule.length, "entries")
-  const contents = filter(state.schedule, state.filter).map(e => e.dom);//schedule(state.schedule, state.filter);
   return html`
     <div class=${ mainCss }>
       <div id="main">
@@ -179,10 +172,7 @@ module.exports = function(state, emit) {
               year is not the year of production but that of exhibition.
             </p>
 
-            <div>
-              Filter by
-              <div class="type">${filters}</div>
-            </div>
+            ${ filterDom }
           </header>
 
           ${contents}
