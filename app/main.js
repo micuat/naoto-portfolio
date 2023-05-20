@@ -1,6 +1,94 @@
-// import choo's template helper
 const html = require("choo/html");
+const { css } = require("@emotion/css");
+
 const filter = require("./filter.js");
+
+const mainCss = css`
+#main {
+  display: flex;
+  width: 100vw;
+  background-color: white;
+
+  #container {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 100px;
+
+    header {
+      max-width: 700px;
+      background-color: white;
+      padding: 30px 10px 30px 10px;
+      margin: 20px auto 200px auto;
+      
+      h1 {
+        text-align: center;
+      }
+      @media only screen and (max-width: 600px) {
+        h1 {
+        font-size: 20pt;
+        }
+      }
+
+      p {
+        text-align: justify;
+      }
+      p.note {
+        text-align: justify;
+        font-size: 12pt;
+      }
+      @media only screen and (max-width: 600px) {
+        p {
+          font-size: 12pt;
+        }
+        p.note {
+          font-size: 10pt;
+        }
+      }
+    }
+  }
+}
+
+
+.type {
+  p {
+    margin-right: 0.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    white-space: pre;
+    float: left;
+    background-color: #5ef177;
+    color: #000;
+    padding: 0.2em;
+    border: solid rgba(255, 255, 255, 0);
+  }
+
+  p.year {
+    background-color: cornflowerblue;
+  }
+}
+
+.type .selected {
+  border: solid rgba(0, 0, 0, 1);
+}
+
+.topic > p {
+  margin-right: 0.5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  white-space: pre;
+  float: left;
+  padding: 0.6em;
+
+  border: solid black;
+  border-radius: 25px;
+  background-color: aliceblue;
+  color: black;
+}
+
+.clearer {
+  
+}
+`;
 
 // export module
 module.exports = function(state, emit) {
@@ -34,7 +122,7 @@ module.exports = function(state, emit) {
 
   filters.push(
     html`
-      <div class="clearer"></div>
+      <div class=${ css`clear: both;` }></div>
     `
   );
 
@@ -67,7 +155,7 @@ module.exports = function(state, emit) {
   // console.log(state.schedule.length, "entries")
   const contents = filter(state.schedule, state.filter).map(e => e.dom);//schedule(state.schedule, state.filter);
   return html`
-    <div>
+    <div class=${ mainCss }>
       <div id="main">
         <div id="container">
           <header>

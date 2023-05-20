@@ -9,22 +9,46 @@ section {
   margin: 150px auto 150px auto;
 }
 
-
 .caption-holder {
   max-width: 700px;
   box-sizing:content-box;
   background-color: white;
   margin: 80px auto 200px auto;
-}
+  .caption {
+    margin: 80px auto 200px auto;
+    width: 90%;
+    box-shadow: 0 0.5px 2px #000;
+    -webkit-box-shadow: 0 0.5px 2px #000;
+    padding: 30px 10px 10px 10px;
 
-.caption {
-  margin: 80px auto 200px auto;
-  width: 90%;
-/*   padding: 30px 10px 30px 10px; */
-/*   box-sizing:content-box; */
-  box-shadow: 0 0.5px 2px #000;
-  -webkit-box-shadow: 0 0.5px 2px #000;
-  padding: 30px 10px 10px 10px;
+    .collabs {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+
+    .title {
+      font-style: italic;
+      left: -2px;
+      position: relative;
+    }
+
+    .venue {
+      margin-bottom: 50px;
+    }
+
+    .desc {
+      font-size: 12pt;
+      margin-bottom: 50px;
+    }
+
+    .links {
+      font-size: 12pt;
+      a {
+        margin-right: 20px;
+      }
+    }
+  }
 }
 
 .thumbnail {
@@ -33,72 +57,27 @@ section {
   /*   min-width: 700px; */
   display: flex;
   justify-content: center;
-}
-
-.thumbnail > p {
-  font-family: "HK Grotesk", arial, sans-serif;
-  text-align: center;
-  font-style: italic;
-  background-color: #ccc;
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-	width:100vw;
-  height:100px;
-  max-width: 800px;
-}
-
-.thumbnail > img,
-.rowimg > img {
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-}
-
-.youtube-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  margin: 1.5rem 0 0 0;
-}
-
-.youtube-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.collabs {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.title {
-  font-style: italic;
-  left: -2px;
-  position: relative;
-}
-
-.venue {
-  margin-bottom: 50px;
-}
-
-.desc {
-  font-size: 12pt;
-  margin-bottom: 50px;
-/*   text-align: justify; */
-}
-
-.links {
-  font-size: 12pt;
-  a {
-    margin-right: 20px;
+  
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+  }
+  p {
+    font-family: "HK Grotesk", arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    background-color: #ccc;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width:100vw;
+    height:100px;
+    max-width: 800px;
   }
 }
+
+
 
 `;
 
