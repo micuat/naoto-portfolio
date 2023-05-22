@@ -8,7 +8,8 @@ var sc = [
     collab: ["Naoto Hieda"],
     venue: "PACT Zollverein (Germany)",
     image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
-    // links: ["https://hydra-hauptsachefrei-2023-workshop.glitch.me/"],
+    links: ["https://nosy-phrygian-twister.glitch.me/",
+            "https://abiding-simple-inspiration.glitch.me/"],
     desc: html`
     `
   },
