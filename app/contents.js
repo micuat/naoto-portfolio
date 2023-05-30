@@ -1,9 +1,21 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("May 24, 2023"),
+    title: "UrbanRecall-Archive",
+    type: ["net art"],
+    topic: [""],
+    collab: ["UrbanRecall"],
+    venue: "KoProduktionsLabor (Germany)",
+    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    links: ["https://github.com/Koproduktionslabor/UrbanRecall-Archive"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("May 8, 2023"),
     title: "Digital Corporealities",
-    type: ["panel"],
+    type: ["lecture"],
     topic: [""],
     collab: ["Naoto Hieda"],
     venue: "PACT Zollverein (Germany)",
