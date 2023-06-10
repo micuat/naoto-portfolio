@@ -1,10 +1,21 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("June 9, 2023"),
+    title: "Naoto's Nails",
+    type: ["net art"],
+    topic: ["face filter"],
+    collab: [],
+    venue: "online",
+    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    desc: html`
+    `
+  },
+  {
     start: new Date("May 24, 2023"),
     title: "UrbanRecall-Archive",
     type: ["net art"],
-    topic: [""],
+    topic: ["archive"],
     collab: ["UrbanRecall"],
     venue: "KoProduktionsLabor (Germany)",
     // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
@@ -16,7 +27,7 @@ var sc = [
     start: new Date("May 8, 2023"),
     title: "Digital Corporealities",
     type: ["lecture"],
-    topic: [""],
+    topic: ["dance", "digitality"],
     collab: ["Naoto Hieda"],
     venue: "PACT Zollverein (Germany)",
     image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
