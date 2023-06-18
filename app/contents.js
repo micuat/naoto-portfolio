@@ -1,13 +1,36 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("June 14, 2023"),
+    title: "Show You My Screen",
+    type: ["net art"],
+    topic: ["web"],
+    collab: ["Naoto Hieda"],
+    venue: "showusyourscreens (Germany)",
+    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    links: ["https://www.youtube.com/watch?v=rQzWtLS43mc"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("June 9, 2023"),
     title: "Naoto's Nails",
     type: ["net art"],
     topic: ["face filter"],
-    collab: [],
+    collab: ["Naoto Hieda"],
     venue: "online",
     // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    desc: html`
+    `
+  },
+  {
+    start: new Date("June 6, 2023"),
+    title: "Naoto's Nail Salon",
+    type: ["performance"],
+    topic: ["nails"],
+    collab: ["Naoto Hieda"],
+    venue: "KHM (Germany)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/2023-06-06-nail-salon-flyer.gif?v=1687099506801",
     desc: html`
     `
   },
