@@ -7,7 +7,7 @@ var sc = [
     topic: ["web"],
     collab: ["Naoto Hieda"],
     venue: "showusyourscreens (Germany)",
-    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/2023-06-14-syms.jpg?v=1687102224701",
     links: ["https://www.youtube.com/watch?v=rQzWtLS43mc"],
     desc: html`
     `
@@ -19,7 +19,7 @@ var sc = [
     topic: ["face filter"],
     collab: ["Naoto Hieda"],
     venue: "online",
-    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/IMG_0138.JPG?v=1687101951097",
     desc: html`
     `
   },
