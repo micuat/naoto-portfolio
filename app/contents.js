@@ -1,6 +1,43 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("July 19, 2023"),
+    title: "New Banner",
+    type: ["installation"],
+    topic: ["hydra"],
+    collab: ["Naoto Hieda"],
+    venue: "KHM Rundgang (Germany)",
+    image: "https://img.glitches.me/images/2023/07/26/naoto-new-banner.jpg",
+    links: [],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("July 19, 2023"),
+    title: "Naoto's Nail Salon",
+    type: ["performance"],
+    topic: ["nail polish"],
+    collab: ["Naoto Hieda"],
+    venue: "KHM Rundgang (Germany)",
+    image: "https://img.glitches.me/images/2023/07/26/20230722_KHM_RundgangDSC_0739_c_Doerthe_Boxberg_sq.jpg",
+    links: ["https://nail.glitches.me/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("July 19, 2023"),
+    title: "[[open-lab]]",
+    type: ["installation"],
+    topic: ["material"],
+    collab: ["exMedia Lab"],
+    venue: "KHM Rundgang (Germany)",
+    image: "https://img.glitches.me/images/2023/07/26/cards_sq.jpg",
+    links: ["https://open-lab.glitch.me/"],
+    desc: html`
+    group show with open lab seminar
+    `
+  },
+  {
     start: new Date("June 14, 2023"),
     title: "Show You My Screen",
     type: ["net art"],
