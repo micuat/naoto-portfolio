@@ -78,7 +78,7 @@ var sc = [
     topic: ["archive"],
     collab: ["UrbanRecall"],
     venue: "KoProduktionsLabor (Germany)",
-    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    image: "https://img.glitches.me/images/2023/07/31/Screenshot-2023-07-31-at-09-58-02-urbanrecall_web_archive.png",
     links: ["https://github.com/Koproduktionslabor/UrbanRecall-Archive"],
     desc: html`
     `
