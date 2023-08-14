@@ -13,6 +13,19 @@ var sc = [
     `
   },
   {
+    start: new Date("August 2, 2023"),
+    title: "Dynamic Memory Lab",
+    type: ["installation"],
+    topic: ["web"],
+    collab: ["Coalition for Pluralistic Public Discourse"],
+    venue: "Grünen Salon der Volksbühne (Germany)",
+    image: "https://img.glitches.me/images/2023/08/14/652F71DF-882C-4C23-94B8-4B24ADE76BA0_1_105_c.md.jpg",
+    links: ["https://www.dialogueperspectives.org/blog/dynamic-memory-lab/"],
+    desc: html`
+    Naoto Hieda: Software development
+    `
+  },
+  {
     start: new Date("July 19, 2023"),
     title: "New Banner",
     type: ["installation"],
