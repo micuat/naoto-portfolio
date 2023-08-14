@@ -1,6 +1,18 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("August 12, 2023"),
+    title: "Biosensing and Sound",
+    type: ["performance", "workshop"],
+    topic: ["eeg"],
+    collab: ["Naoto Hieda"],
+    venue: "Klanginseln Großhartau (Germany)",
+    image: "https://img.glitches.me/images/2023/08/14/photo1691939602.jpg",
+    links: [],
+    desc: html`
+    `
+  },
+  {
     start: new Date("July 19, 2023"),
     title: "New Banner",
     type: ["installation"],
