@@ -1,6 +1,9 @@
 // import choo
-const choo = require("choo");
-const html = require("choo/html");
+import choo from "choo";
+import html from "choo/html";
+
+import schedule from "./schedule.js";
+
 // initialize choo
 const app = choo({ hash: true });
 
@@ -16,7 +19,7 @@ function notFound() {
   `;
 }
 
-app.state.schedule = require("./schedule.js")();
+app.state.schedule = schedule();
 
 const counter = [];
 for (const s of app.state.schedule) {
@@ -43,7 +46,7 @@ app.state.types = counter.sort((a, b) => {
 });
 
 // import a template
-const main = require("./main.js");
+import main from "./main.js";
 
 app.route("/", main);
 

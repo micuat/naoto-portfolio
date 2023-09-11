@@ -1,7 +1,7 @@
-const html = require("choo/html");
-const { css } = require("@emotion/css");
+import html from "choo/html";
+import { css } from "@emotion/css";
 
-const contents = require("./contents.js");
+import contents from "./contents.js";
 
 const mainCss = css`
 
@@ -85,7 +85,7 @@ section {
 
 `;
 
-module.exports = () => {
+export default () => {
   const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
   const dates = [];

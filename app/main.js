@@ -1,7 +1,7 @@
-const html = require("choo/html");
-const { css } = require("@emotion/css");
+import html from "choo/html";
+import { css } from "@emotion/css";
 
-const filter = require("./filter.js");
+import filter from "./filter.js";
 
 const mainCss = css`
 #main {
@@ -75,7 +75,7 @@ div {
 `;
 
 // export module
-module.exports = function(state, emit) {
+export default function(state, emit) {
   emit("DOMTitleChange", `Works: Naoto Hieda`);
 
   let filterDom;

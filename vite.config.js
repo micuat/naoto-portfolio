@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode, ssrBuild }) => {
-  const commonConfig = {
+  return {
     plugins: [],
     root: 'app',
     build: {

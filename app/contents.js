@@ -1,4 +1,4 @@
-const html = require("choo/html");
+import html from "choo/html";
 var sc = [
   {
     start: new Date("September 6, 2023"),
@@ -2425,5 +2425,4 @@ image from tanzhaus nrw
   },
 ];
 
-module.exports = sc;
-// window.contents = sc;
+export default sc;

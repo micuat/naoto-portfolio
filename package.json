@@ -19,7 +19,7 @@
     "vite": "^4.4.9"    
   },
   "engines": {
-    "node": "8.1.x"
+    "node": "16.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/static-server"

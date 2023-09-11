@@ -1,4 +1,4 @@
-module.exports = (list, filter) => {
+export default (list, filter) => {
   const newList = [];
   for(const l of list) {
     if (filter != undefined) {
