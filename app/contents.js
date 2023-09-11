@@ -14,16 +14,14 @@ var sc = [
     `
   },
   {
-    start: new Date("August 6, 2023"),
-    title: "Bühne der Stille 2.0",
-    type: ["installation"],
+    start: new Date("August 24, 2023"),
+    title: "Show You My Screen",
+    type: ["performance"],
     topic: [],
-    collab: ["Freiversum"],
-    venue: "Teo Otto Theater der Remscheid (Germany)",
-    image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
-    links: ["https://freiversum.com"],
+    collab: ["Takeshi Mukai", "Naoto Hieda"],
+    venue: "showusyourscreens (Germany)",
+    links: [],
     desc: html`
-    Naoto Hieda: web interaction programming
     `
   },
   {
