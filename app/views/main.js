@@ -140,6 +140,9 @@ div {
     color: #000;
     padding: 0.2em;
     border: solid rgba(255, 255, 255, 0);
+    a {
+      text-decoration: none;
+    }
   }
 
   p.year {
@@ -155,16 +158,11 @@ div {
 // export module
 export default function(state, emit) {
   state.filter.year = state.params.year ? state.params.year : "all time";
+  state.filter.tag = state.params.tag ? state.params.tag : "all";
 
   let filterDom;
   {
     const filters = [];
-    if (state.filter === undefined) {
-      state.filter = { tag: "all", year: "all time" };
-      if (state.query.tag !== undefined) {
-        state.filter.tag = state.query.tag;
-      }
-    }
 
     for (const t of state.types) {
       const selected =
@@ -173,11 +171,10 @@ export default function(state, emit) {
           : state.filter.tag == t.t
           ? "selected"
           : "";
+      
       filters.push(
         html`
-          <p class="${t} ${selected} year"><a href="/#${ t }">${ t.t }</a></p>
-        
-          <p onclick="${filterTag}" class="${t.t} ${selected}">${t.t}</p>
+          <p class="${t.t} ${selected}"><a href="/#${ state.filter.year }/${ t.t }">${ t.t }</a></p>
         `
       );
     }
@@ -210,7 +207,7 @@ export default function(state, emit) {
           : "";
       filters.push(
         html`
-          <p class="${t} ${selected} year"><a href="/#${ t }">${t}</a></p>
+          <p class="${t} ${selected} year"><a href="/#${ t }/${ state.filter.tag }">${ t }</a></p>
         `
       );
     }
@@ -259,44 +256,4 @@ export default function(state, emit) {
       </div>
     </div>
   `;
-
-  // https://stackoverflow.com/questions/5999118/how-can-i-add-or-update-a-query-string-parameter
-  function UpdateQueryString(key, value, url) {
-    if (!url) url = window.location.href;
-    var re = new RegExp("([?&])" + key + "=.*?(&|#|$)(.*)", "gi"),
-      hash;
-
-    if (re.test(url)) {
-      if (typeof value !== "undefined" && value !== null) {
-        return url.replace(re, "$1" + key + "=" + value + "$2$3");
-      } else {
-        hash = url.split("#");
-        url = hash[0].replace(re, "$1$3").replace(/(&|\?)$/, "");
-        if (typeof hash[1] !== "undefined" && hash[1] !== null) {
-          url += "#" + hash[1];
-        }
-        return url;
-      }
-    } else {
-      if (typeof value !== "undefined" && value !== null) {
-        var separator = url.indexOf("?") !== -1 ? "&" : "?";
-        hash = url.split("#");
-        url = hash[0] + separator + key + "=" + value;
-        if (typeof hash[1] !== "undefined" && hash[1] !== null) {
-          url += "#" + hash[1];
-        }
-        return url;
-      } else {
-        return url;
-      }
-    }
-  }
-  function filterTag(e) {
-    const tag = e.target.innerText;
-    if(state.filter.tag === tag) return;
-    state.filter.tag = tag;
-    const url = UpdateQueryString("tag", tag);
-    history.pushState(null, "", url);
-    emit("render");
-  }
 };

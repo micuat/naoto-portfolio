@@ -25,6 +25,7 @@ import main from "./views/main.js";
 
 app.route("/", main);
 app.route("/:year", main);
+app.route("/:year/:tag", main);
 
 // start app
 app.mount("#choomount");
