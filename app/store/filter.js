@@ -1,12 +1,19 @@
 import raw from "choo/html/raw";
 import html from "choo/html";
 
-import schedule from "../schedule.js";
 import contents from "../contents.js";
 
 export default (state, emitter) => {
-  state.schedule = schedule();
-  state.contents = contents;
+  let id = 0;
+  const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const dates = [];
+  const dateOptions = { hour: "2-digit", minute: "2-digit" };
+  state.contents = contents.map(e => {
+    const dateYear = e.start.toLocaleDateString(undefined, {
+      year: "numeric"
+    });
+    return { ...e, dateYear, id: id++ };
+  });
   state.filter = {};
 
   const counter = [];
