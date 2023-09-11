@@ -19,10 +19,6 @@ export default () => {
       year: "numeric"
     });
     let { title, topic, desc, type, image, yt, collab, venue, links } = s;
-    //   console.log("oi", title, desc.parentNode)
-    // if(desc.parentNode !== undefined && desc.parentNode !== null) {
-    //   desc = desc.parentNode.removeChild(desc);
-    // }
 
     let types = [];
     for (let i = 0; i < type.length; i++) {

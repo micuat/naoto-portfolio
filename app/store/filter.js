@@ -2,13 +2,15 @@ import raw from "choo/html/raw";
 import html from "choo/html";
 
 import schedule from "../schedule.js";
+import contents from "../contents.js";
 
 export default (state, emitter) => {
   state.schedule = schedule();
+  state.contents = contents;
   state.filter = {};
 
   const counter = [];
-  for (const s of state.schedule) {
+  for (const s of state.contents) {
     const types = [...s.type, "all"];
     for (const t of types) {
       const c = counter.find(el => el.t == t);
@@ -30,12 +32,4 @@ export default (state, emitter) => {
     }
     return -1;
   });
-
-//   emitter.on("navigate", () => {
-//     parseQuery();
-//   });
-  
-//   emitter.on("DOMContentLoaded", () => {
-//     parseQuery();
-//   });
 }

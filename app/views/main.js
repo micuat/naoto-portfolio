@@ -1,7 +1,21 @@
 import html from "choo/html";
 import { css } from "@emotion/css";
 
-import filter from "../filter.js";
+const filter = (list, filter) => {
+  const newList = [];
+  for(const l of list) {
+    if (filter != undefined) {
+      if (filter.tag != undefined) {
+        if (filter.tag != "all" && l.type.indexOf(filter.tag) < 0) continue;
+      }
+      if (filter.year != undefined) {
+        if (filter.year != "all" && l.dateYear != filter.year) continue;
+      }
+    }
+    newList.push(l);
+  }
+  return newList;
+};
 
 const elementCss = css`
 section {
@@ -155,9 +169,8 @@ div {
 }
 `;
 
-// export module
 export default function(state, emit) {
-  state.filter.year = state.params.year ? state.params.year : "all time";
+  state.filter.year = state.params.year ? state.params.year : "all";
   state.filter.tag = state.params.tag ? state.params.tag : "all";
 
   let filterDom;
@@ -187,7 +200,7 @@ export default function(state, emit) {
 
     const filtersY = [];
     for (const t of [
-      "all time",
+      "all",
       "2023",
       "2022",
       "2021",
@@ -215,7 +228,7 @@ export default function(state, emit) {
     filterDom = html`
     <div class=${ filterCss }>
       Filter by
-      <div>${filters}</div>
+      <div>${ filters }</div>
     </div>`;
   }
 

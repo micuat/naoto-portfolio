@@ -6,8 +6,8 @@ import filter from "./store/filter.js";
 
 // initialize choo
 const app = choo({ hash: true });
-app.use(filter);
 
+app.use(filter);
 app.route("/*", notFound);
 
 function notFound() {
