@@ -294,21 +294,21 @@ export default function(state, emit) {
     } else {
       imageElt = html`<p>The image is currently on loan</p>`
     }
-      
-      return html`
-        <section id="section-${s.id}">
-          <div class="thumbnail">${imageElt}</div>
-          <div class="caption-holder">
-            <div class="caption">
-              <div class="collabs">${collabs}</div>
-              <div><span class="title">${ title }</span>, <span class="date">${ dateYear }</span></div>
-              <div class="type">${ types }${ topics.length ? "; " : "" } ${ topics }</div>
-              <div class="venue">${ venueElt }</div>
-              <p class="desc">${ desc }</p>
-              <p class="links">${ link }</p>
-            </div>
+
+    return html`
+      <section id="section-${s.id}">
+        <div class="thumbnail">${imageElt}</div>
+        <div class="caption-holder">
+          <div class="caption">
+            <div class="collabs">${collabs}</div>
+            <div><span class="title">${ title }</span>, <span class="date">${ dateYear }</span></div>
+            <div class="type">${ types }${ topics.length ? "; " : "" } ${ topics }</div>
+            <div class="venue">${ venueElt }</div>
+            <p class="desc">${ desc }</p>
+            <p class="links">${ link }</p>
           </div>
-        </section>
+        </div>
+      </section>
   `});
   return html`
     <div class=${ mainCss }>

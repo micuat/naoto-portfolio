@@ -2,7 +2,7 @@ import html from "choo/html";
 var sc = [
   {
     start: new Date("September 6, 2023"),
-    title: "Bühne der Stille 2.0/freiversum",
+    title: "Bühne der Stille 2.0",
     type: ["installation"],
     topic: [],
     collab: ["Freiversum"],
