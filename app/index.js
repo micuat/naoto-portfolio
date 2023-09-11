@@ -6,6 +6,7 @@ import filter from "./store/filter.js";
 
 // initialize choo
 const app = choo({ hash: true });
+app.use(filter);
 
 app.route("/*", notFound);
 
@@ -23,6 +24,7 @@ function notFound() {
 import main from "./views/main.js";
 
 app.route("/", main);
+app.route("/:year", main);
 
 // start app
 app.mount("#choomount");

@@ -1,11 +1,13 @@
 import raw from "choo/html/raw";
 import html from "choo/html";
 
+import schedule from "../schedule.js";
+
 export default (state, emitter) => {
   state.schedule = schedule();
 
   const counter = [];
-  for (const s of app.state.schedule) {
+  for (const s of state.schedule) {
     const types = [...s.type, "all"];
     for (const t of types) {
       const c = counter.find(el => el.t == t);
@@ -18,7 +20,7 @@ export default (state, emitter) => {
   }
 
   console.log(counter)
-  app.state.types = counter.sort((a, b) => {
+  state.types = counter.sort((a, b) => {
     if(a.count < b.count) {
       return 1;
     }
@@ -27,8 +29,6 @@ export default (state, emitter) => {
     }
     return -1;
   });
-
-  
 
 //   emitter.on("navigate", () => {
 //     parseQuery();
