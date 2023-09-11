@@ -19,7 +19,7 @@
     "node": "16.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/static-server"
+    "url": "https://glitch.com/edit/#!/naoto-portfolio"
   },
   "glitch": {
     "projectType": "generated_static"
