@@ -16,7 +16,7 @@ var sc = [
   {
     start: new Date("August 24, 2023"),
     title: "Show You My Screen",
-    type: ["performance"],
+    type: ["performance", "net art"],
     topic: [],
     collab: ["Takeshi Mukai", "Naoto Hieda"],
     venue: "showusyourscreens (Germany)",
@@ -27,7 +27,7 @@ var sc = [
   {
     start: new Date("August 12, 2023"),
     title: "Biosensing and Sound",
-    type: ["performance", "workshop"],
+    type: ["performance", "workshop", "residency"],
     topic: ["eeg"],
     collab: ["Naoto Hieda"],
     venue: "Klanginseln Großhartau (Germany)",
