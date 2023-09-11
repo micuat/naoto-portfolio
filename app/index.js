@@ -46,7 +46,7 @@ app.state.types = counter.sort((a, b) => {
 });
 
 // import a template
-import main from "./main.js";
+import main from "./views/main.js";
 
 app.route("/", main);
 
