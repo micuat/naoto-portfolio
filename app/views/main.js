@@ -3,9 +3,7 @@ import { css } from "@emotion/css";
 
 import filter from "../filter.js";
 
-
 const elementCss = css`
-
 section {
   margin: 150px auto 150px auto;
 }
@@ -156,7 +154,7 @@ div {
 
 // export module
 export default function(state, emit) {
-  emit("DOMTitleChange", `Works: Naoto Hieda`);
+  state.filter.year = state.params.year ? state.params.year : "all time";
 
   let filterDom;
   {
@@ -165,9 +163,6 @@ export default function(state, emit) {
       state.filter = { tag: "all", year: "all time" };
       if (state.query.tag !== undefined) {
         state.filter.tag = state.query.tag;
-      }
-      if (state.query.year !== undefined) {
-        state.filter.year = state.query.year;
       }
     }
 
@@ -180,6 +175,8 @@ export default function(state, emit) {
           : "";
       filters.push(
         html`
+          <p class="${t} ${selected} year"><a href="/#${ t }">${ t.t }</a></p>
+        
           <p onclick="${filterTag}" class="${t.t} ${selected}">${t.t}</p>
         `
       );
@@ -213,7 +210,7 @@ export default function(state, emit) {
           : "";
       filters.push(
         html`
-          <p onclick="${filterYear}" class="${t} ${selected} year">${t}</p>
+          <p class="${t} ${selected} year"><a href="/#${ t }">${t}</a></p>
         `
       );
     }
@@ -299,15 +296,6 @@ export default function(state, emit) {
     if(state.filter.tag === tag) return;
     state.filter.tag = tag;
     const url = UpdateQueryString("tag", tag);
-    history.pushState(null, "", url);
-    emit("render");
-  }
-  function filterYear(e) {
-    // console.log(e.target.innerText);
-    const year = e.target.innerText;
-    if(state.filter.year === year) return;
-    state.filter.year = year;
-    const url = UpdateQueryString("year", year);
     history.pushState(null, "", url);
     emit("render");
   }

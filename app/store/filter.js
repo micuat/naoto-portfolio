@@ -5,6 +5,7 @@ import schedule from "../schedule.js";
 
 export default (state, emitter) => {
   state.schedule = schedule();
+  state.filter = {};
 
   const counter = [];
   for (const s of state.schedule) {
