@@ -4,9 +4,9 @@
   "description": "What am I about?",
   "main": "index.html",
   "scripts": {
-    "serve": "static-server -n index.html -p 8000 build",
-    "start": "npm run watch & npm run serve",
-    "watch": "watchify app/index.js -o build/bundle.js"
+    "start": "vite build --watch & vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
     "static-server": "^3.0.0",
@@ -14,6 +14,9 @@
     "choo": "^7.1.0",
     "hydra-synth": "1.2.*",
     "@emotion/css": "^11.11.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"    
   },
   "engines": {
     "node": "8.1.x"

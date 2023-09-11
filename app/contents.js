@@ -1,6 +1,19 @@
 const html = require("choo/html");
 var sc = [
   {
+    start: new Date("September 6, 2023"),
+    title: "Bühne der Stille 2.0/freiversum",
+    type: ["installation"],
+    topic: [],
+    collab: ["Freiversum"],
+    venue: "Teo Otto Theater der Remscheid (Germany)",
+    image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: ["https://freiversum.com"],
+    desc: html`
+    Naoto Hieda: web interaction programming
+    `
+  },
+  {
     start: new Date("August 12, 2023"),
     title: "Biosensing and Sound",
     type: ["performance", "workshop"],
