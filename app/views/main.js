@@ -187,7 +187,7 @@ export default function(state, emit) {
       
       filters.push(
         html`
-          <p class="${t.t} ${selected}"><a href="/#${ state.filter.year }/${ t.t }">${ t.t }</a></p>
+          <p class="${ t.t } ${ selected }"><a href="/#${ state.filter.year }/${ t.t }">${ t.t }</a></p>
         `
       );
     }
@@ -220,7 +220,7 @@ export default function(state, emit) {
           : "";
       filters.push(
         html`
-          <p class="${t} ${selected} year"><a href="/#${ t }/${ state.filter.tag }">${ t }</a></p>
+          <p class="${ t } ${selected} year"><a href="/#${ t }/${ state.filter.tag }">${ t }</a></p>
         `
       );
     }
