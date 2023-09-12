@@ -30,7 +30,7 @@ var sc = [
     type: ["performance", "workshop", "residency"],
     topic: ["eeg"],
     collab: ["Naoto Hieda"],
-    venue: "Klanginseln Großhartau (Germany)",
+    venue: "Klanginseln Großharthau (Germany)",
     image: "https://img.glitches.me/images/2023/08/14/photo1691939602.jpg",
     links: [],
     desc: html`
