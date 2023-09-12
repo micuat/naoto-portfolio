@@ -2434,6 +2434,17 @@ image from tanzhaus nrw
     desc: html`
     `
   },
+  {
+    start: new Date("June 11, 2012"),
+    title: "SPIDAR-mouse OSX/Linux Driver",
+    type: ["installation"],
+    topic: ["haptics"],
+    collab: ["Naoto Hieda"],
+    venue: "",
+    image: "https://naotohieda.com/img/spidarMouse.jpg",
+    desc: html`
+    `
+  },
 ];
 
 export default sc;
