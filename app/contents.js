@@ -152,7 +152,7 @@ var sc = [
     topic: [],
     collab: ["Naoto Hieda"],
     venue: "Kunsthochschule für Medien Köln",
-    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/thesis.jpg?v=1695584746655",
     links: ["https://neuroqueer.glitch.me/"],
     desc: html`
     `
