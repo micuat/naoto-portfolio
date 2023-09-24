@@ -146,6 +146,18 @@ var sc = [
     `
   },
   {
+    start: new Date("May 7, 2023"),
+    title: "Neuroqueerness and Decolonization in Media Art",
+    type: ["publication"],
+    topic: [],
+    collab: ["Naoto Hieda"],
+    venue: "Kunsthochschule für Medien Köln",
+    // image: "https://img.glitches.me/images/2023/05/19/2023-05-08-pact.jpg",
+    links: ["https://neuroqueer.glitch.me/"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("April 22, 2023"),
     title: "Hands-On: Introduction to Live-Coding with Hydra",
     type: ["workshop"],
