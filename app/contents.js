@@ -37,6 +37,18 @@ var sc = [
     `
   },
   {
+    start: new Date("October 11, 2023"),
+    title: "Heartbreak Cards",
+    type: ["installation", "publication"],
+    topic: [],
+    collab: [],
+    venue: "Working Group for Unusual Input and Output Media / LUX Pavillon (Germany)",
+    // image: "https://img.glitches.me/images/2023/10/28/A9D20F93-BC08-42FC-8095-78A45D64BBDA.md.jpg",
+    links: ["https://nodeforum.org/announcements/re-coding-everyday-technology/", "https://re-coding.technology/"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("September 6, 2023"),
     title: "Bühne der Stille 2.0",
     type: ["installation"],
