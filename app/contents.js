@@ -1,6 +1,42 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("October 29, 2023"),
+    title: "Unarchiving Dance",
+    type: ["workshop"],
+    topic: [],
+    collab: [],
+    venue: "Annual symposium of the Society for Dance Research (Germany)",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: ["https://www.gtf-tanzforschung.de/en/convention/symposium-2023/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("October 27, 2023"),
+    title: "Exhibition: Code, Remix, Break & Glitch",
+    type: ["installation"],
+    topic: [],
+    collab: [],
+    venue: "Digitale Welten / TOR Art Space (Germany)",
+    image: "https://img.glitches.me/images/2023/10/28/A9D20F93-BC08-42FC-8095-78A45D64BBDA.md.jpg",
+    links: ["https://www.digitale-welten.org/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("October 23, 2023"),
+    title: "Workshop: Code, Remix, Break & Glitch",
+    type: ["workshop"],
+    topic: [],
+    collab: [],
+    venue: "Digitale Welten (Germany)",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: ["https://www.digitale-welten.org/"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("September 6, 2023"),
     title: "Bühne der Stille 2.0",
     type: ["installation"],
