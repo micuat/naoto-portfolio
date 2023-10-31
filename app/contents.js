@@ -43,7 +43,7 @@ var sc = [
     topic: [],
     collab: [],
     venue: "Working Group for Unusual Input and Output Media / LUX Pavillon (Germany)",
-    // image: "https://img.glitches.me/images/2023/10/28/A9D20F93-BC08-42FC-8095-78A45D64BBDA.md.jpg",
+    image: "https://img.glitches.me/images/2023/10/31/IMG_3702-1280.jpg",
     links: ["https://nodeforum.org/announcements/re-coding-everyday-technology/", "https://re-coding.technology/"],
     desc: html`
     `
