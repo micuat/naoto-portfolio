@@ -1,11 +1,35 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("November 4, 2023"),
+    title: "cctv.glitches.me",
+    type: ["installation"],
+    topic: [],
+    collab: ["Naoto Hieda"],
+    venue: "FIfFKon (Germany)",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: [],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("November 4, 2023"),
+    title: "Aesthetic approaches to cyber peace work",
+    type: ["lecture"],
+    topic: [],
+    collab: ["Ground Zero"],
+    venue: "FIfFKon (Germany)",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: [],
+    desc: html`
+    `
+  },
+  {
     start: new Date("October 29, 2023"),
     title: "Unarchiving Dance",
     type: ["workshop"],
     topic: [],
-    collab: [],
+    collab: ["Naoto Hieda", "Tobias Hartmann"],
     venue: "Annual symposium of the Society for Dance Research (Germany)",
     // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
     links: ["https://www.gtf-tanzforschung.de/en/convention/symposium-2023/"],
@@ -17,7 +41,7 @@ var sc = [
     title: "Exhibition: Code, Remix, Break & Glitch",
     type: ["installation"],
     topic: [],
-    collab: [],
+    collab: ["Naoto Hieda"],
     venue: "Digitale Welten / TOR Art Space (Germany)",
     image: "https://img.glitches.me/images/2023/10/28/A9D20F93-BC08-42FC-8095-78A45D64BBDA.md.jpg",
     links: ["https://www.digitale-welten.org/"],
@@ -29,7 +53,7 @@ var sc = [
     title: "Workshop: Code, Remix, Break & Glitch",
     type: ["workshop"],
     topic: [],
-    collab: [],
+    collab: ["Naoto Hieda", "Franka Osthoff"],
     venue: "Digitale Welten (Germany)",
     // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
     links: ["https://www.digitale-welten.org/"],
@@ -41,7 +65,7 @@ var sc = [
     title: "Heartbreak Cards",
     type: ["installation", "publication"],
     topic: [],
-    collab: [],
+    collab: ["Naoto Hieda"],
     venue: "Working Group for Unusual Input and Output Media / LUX Pavillon (Germany)",
     image: "https://img.glitches.me/images/2023/10/31/IMG_3702-1280.jpg",
     links: ["https://nodeforum.org/announcements/re-coding-everyday-technology/", "https://re-coding.technology/"],
