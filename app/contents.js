@@ -1,6 +1,18 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("November 22, 2023"),
+    title: "Naoto's Presentation",
+    type: ["lecture"],
+    topic: [],
+    collab: ["Naoto Hieda"],
+    venue: "Tokyo University of the Arts",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: [],
+    desc: html`
+    `
+  },
+  {
     start: new Date("November 4, 2023"),
     title: "cctv.glitches.me",
     type: ["installation"],
