@@ -1,12 +1,32 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("December 18, 2023"),
+    title: "Palallel",
+    type: ["publication"],
+    topic: ["html"],
+    venue: "Taper #11",
+    collab: ["Naoto Hieda"],
+    links: ["https://taper.badquar.to/11/palallel.html"],
+    desc: html`<div>
+      “Palallel” is generative, visual poetry around geometry, concurrence
+      and the word parallel itself. A pair of two “parallel” text lines
+      rewrites the dictionary definition of "parallel" by themselves,
+      in “parallel” to the other pair. While the visual aspect is prominent,
+      the poetry suggests different languages and cultures (English and
+      Japanese in this case) exist in parallel and challenges how browsers
+      render different languages. The title came from a common mistake by
+      Japanese people mixing up r and l consonants. <br />
+      Published by Bad Quarto
+    </div>`
+  },
+  {
     start: new Date("December 14, 2023"),
     title: "I MISS MY PRE INTERNET-BRAIN",
     type: ["performance"],
     topic: [],
     collab: ["Anastasiia Pishchanska"],
-    venue: "Tama Art University",
+    venue: "Tama Art University (Japan)",
     // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
     links: [],
     desc: html`
@@ -32,7 +52,7 @@ var sc = [
     type: ["lecture"],
     topic: [],
     collab: ["Naoto Hieda"],
-    venue: "Tokyo University of the Arts",
+    venue: "Tokyo University of the Arts (Japan)",
     // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
     links: [],
     desc: html`
