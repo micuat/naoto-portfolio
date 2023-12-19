@@ -1,6 +1,32 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("December 14, 2023"),
+    title: "I MISS MY PRE INTERNET-BRAIN",
+    type: ["performance"],
+    topic: [],
+    collab: ["Anastasiia Pishchanska"],
+    venue: "Tama Art University",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: [],
+    desc: html`
+    Techncial direction: Naoto Hieda
+    `
+  },
+  {
+    start: new Date("December 7, 2023"),
+    title: "Open House",
+    type: ["performance"],
+    topic: [],
+    collab: ["Jorge Guevara"],
+    venue: "Academy for Theater and Digitality (Germany)",
+    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    links: [],
+    desc: html`
+    Mentor: Naoto Hieda
+    `
+  },
+  {
     start: new Date("November 22, 2023"),
     title: "Naoto's Presentation",
     type: ["lecture"],
