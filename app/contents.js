@@ -6,6 +6,7 @@ var sc = [
     type: ["publication"],
     topic: ["html"],
     venue: "Taper #11",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/palallel.png?v=1703226169391",
     collab: ["Naoto Hieda"],
     links: ["https://taper.badquar.to/11/palallel.html"],
     desc: html`<div>
@@ -27,7 +28,7 @@ var sc = [
     topic: [],
     collab: ["Anastasiia Pishchanska"],
     venue: "Tama Art University (Japan)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/3270db08-a907-4d35-b607-28d9297445c9/411929223_1266106421443644_6534368842755878499_n.jpg?v=1703224828126",
     links: [],
     desc: html`
     Techncial direction: Naoto Hieda
@@ -40,7 +41,7 @@ var sc = [
     topic: [],
     collab: ["Jorge Guevara"],
     venue: "Academy for Theater and Digitality (Germany)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/jorge-openhouse.jpg?v=1703226126321",
     links: [],
     desc: html`
     Mentor: Naoto Hieda
@@ -53,7 +54,7 @@ var sc = [
     topic: [],
     collab: ["Naoto Hieda"],
     venue: "Tokyo University of the Arts (Japan)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/amc2.png?v=1703226010462",
     links: [],
     desc: html`
     `
