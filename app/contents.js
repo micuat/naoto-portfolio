@@ -29,7 +29,7 @@ var sc = [
     collab: ["Anastasiia Pishchanska"],
     venue: "Tama Art University (Japan)",
     image: "https://cdn.glitch.global/3270db08-a907-4d35-b607-28d9297445c9/411929223_1266106421443644_6534368842755878499_n.jpg?v=1703224828126",
-    links: [],
+    links: ["https://bootywithoutorgans.glitch.me/"],
     desc: html`
     Techncial direction: Naoto Hieda
     `
