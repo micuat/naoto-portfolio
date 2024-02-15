@@ -1,6 +1,40 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("February 14, 2024"),
+    title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
+    type: ["performance"],
+    topic: ["hydra", "dance"],
+    venue: "MODINA / Kino Šiška (Slovenia)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/vlcsnap-2024-02-15-10h04m52s963.webp?v=1708009694398",
+    collab: ["Jorge Guevara", "Naoto Hieda"],
+    links: ["https://sfdcanbac-ux.glitch.me/"],
+    desc: html`<div>
+
+<p>
+Bodies, colorful objects, live-codes and glitter pixels continuously change their constellations on the stage – superimposing and subtracting, grouping and ungrouping – while the abundance of “actors” never arrives to a specific form.
+</p>
+<p>
+The performance is a “petri dish” where something happens as if in the lab environment, but there is no linearity nor anecdote. It is the audience members – being active spectators – who have to make sense of the phenomena on the stage as if they are scientists.
+</p>
+<p>
+Elements on (and outside the) stage include bodies, nail polish, moving lights, pop songs, shiny jackets, websites loaded with artificial intelligence text-generation models, and video projection of live-generated code. The performance is followed by an artist talk and a walkthrough of the interactive technology used on the stage.
+</p>
+<p>
+Artists: Jorge Guevara and Naoto Hieda
+</p>
+<p>
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia
+</p>
+<p>
+Tech support: Kino Šiška  
+</p>
+<p>
+The work is created within the framework of the MODINA project.
+</p>
+</div>`
+  },
+  {
     start: new Date("December 18, 2023"),
     title: "Palallel",
     type: ["publication"],
