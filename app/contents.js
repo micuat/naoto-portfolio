@@ -6,7 +6,7 @@ var sc = [
     type: ["performance"],
     topic: ["hydra", "dance"],
     venue: "MODINA / Kino Šiška (Slovenia)",
-    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/vlcsnap-2024-02-15-10h04m52s963.webp?v=1708009694398",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/J.GUEVARA-N.%20HIEDA-MODINA_urska%20boljkovac%20(72).jpeg?v=1708247688292",
     collab: ["Jorge Guevara", "Naoto Hieda"],
     links: ["https://sfdcanbac-ux.glitch.me/"],
     desc: html`<div>
@@ -28,6 +28,9 @@ Technical Mentorship and development: Andreia Matos, William Primett and Nuno N.
 </p>
 <p>
 Tech support: Kino Šiška  
+</p>
+<p>
+Photo: Urška Boljkovac/Kino Šiška
 </p>
 <p>
 The work is created within the framework of the MODINA project.
