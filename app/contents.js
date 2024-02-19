@@ -38,6 +38,24 @@ The work is created within the framework of the MODINA project.
 </div>`
   },
   {
+    start: new Date("January 5, 2024"),
+    title: "Naoto's Sweaters",
+    type: ["net art"],
+    topic: ["photography", "fashion"],
+    venue: "online",
+    image: "https://cdn.glitch.global/d039cf19-6ba4-4bff-aa37-74b7173391d2/DSC00940.jpg?v=1704766660038",
+    collab: ["Frog Edogawa", "Naoto Hieda"],
+    links: ["https://sweaters.glitch.me/"],
+    desc: html`<div>
+      <p><i>
+If I were to wear only a piece of clothes, it would be a sweater.
+      </i></p>
+      <p>
+      Photos by Frog Edogawa
+      </p>
+    </div>`
+  },
+  {
     start: new Date("December 18, 2023"),
     title: "Palallel",
     type: ["publication"],

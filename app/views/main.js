@@ -93,12 +93,12 @@ section {
     text-align: center;
     font-style: italic;
     background-color: #ccc;
-    display: table-cell;
-    vertical-align: middle;
     position: relative;
     width:100%;
     height:100px;
     max-width: 800px;
+    height: 300px;
+    line-height:300px;
   }
 }
 `;
