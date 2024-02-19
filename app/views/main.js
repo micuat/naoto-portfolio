@@ -80,7 +80,6 @@ section {
 .thumbnail {
   width: 100%;
 	align-items: baseline;
-  /*   min-width: 700px; */
   display: flex;
   justify-content: center;
   
