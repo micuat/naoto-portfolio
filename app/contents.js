@@ -59,6 +59,19 @@ The work is created within the framework of the MODINA project.
     </div>`
   },
   {
+    start: new Date("January 15, 2024"),
+    title: "IIOANA - Aqua Park (underground demo music video)",
+    type: ["video"],
+    topic: [],
+    collab: ["IIOANA"],
+    venue: "online",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708348565588",
+    links: ["https://www.youtube.com/watch?v=QX6ddYl-F8g"],
+    desc: html`
+    Video: Naoto Hieda
+    `
+  },
+  {
     start: new Date("December 14, 2023"),
     title: "I MISS MY PRE INTERNET-BRAIN",
     type: ["performance"],
@@ -151,9 +164,10 @@ The work is created within the framework of the MODINA project.
     topic: [],
     collab: ["Naoto Hieda", "Franka Osthoff"],
     venue: "Digitale Welten (Germany)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/53378405309_445f9d96f6_o.jpg?v=1708348159066",
     links: ["https://www.digitale-welten.org/"],
     desc: html`
+    Photo: Lenz aka. Eray Aydin
     `
   },
   {
