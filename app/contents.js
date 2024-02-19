@@ -65,7 +65,7 @@ The work is created within the framework of the MODINA project.
     topic: [],
     collab: ["IIOANA"],
     venue: "online",
-    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708348565588",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708349107799",
     links: ["https://www.youtube.com/watch?v=QX6ddYl-F8g"],
     desc: html`
     Video: Naoto Hieda
