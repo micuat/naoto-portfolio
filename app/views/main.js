@@ -20,6 +20,11 @@ const filter = (list, filter) => {
 const elementCss = css`
 section {
   margin: 150px auto 150px auto;
+  display: flex;
+  flex-direction: col;
+  @media only screen and (max-width: 600px) {
+    flex-direction: col;
+  }
 }
 
 .caption-holder {
@@ -28,6 +33,7 @@ section {
   background-color: white;
   margin: 80px auto 200px auto;
   .caption {
+    overflow-x: hidden;
     margin: 80px auto 200px auto;
     width: 90%;
     box-shadow: 0 0.5px 2px #000;
