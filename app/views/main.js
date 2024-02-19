@@ -21,9 +21,10 @@ const elementCss = css`
 section {
   margin: 150px auto 150px auto;
   display: flex;
-  flex-direction: col;
-  @media only screen and (max-width: 600px) {
-    flex-direction: col;
+  flex-direction: row;
+  align-items: center;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
   }
 }
 
@@ -31,7 +32,6 @@ section {
   max-width: 700px;
   box-sizing:content-box;
   background-color: white;
-  margin: 80px auto 200px auto;
   .caption {
     overflow-x: hidden;
     margin: 80px auto 200px auto;
