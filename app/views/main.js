@@ -19,57 +19,60 @@ const filter = (list, filter) => {
 
 const elementCss = css`
 section {
-  margin: 150px auto 150px auto;
+  margin: 150px auto auto auto;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
+	  justify-content: flex-start;
   }
 }
 
-.caption-holder {
+.caption {
   max-width: 700px;
   box-sizing:content-box;
   background-color: white;
-  .caption {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  margin: 10px;
+  @media only screen and (max-width: 1200px) {
     margin: 80px auto 200px auto;
-    width: 90%;
-    box-shadow: 0 0.5px 2px #000;
-    -webkit-box-shadow: 0 0.5px 2px #000;
-    padding: 30px 10px 10px 10px;
+  }
+  width: 90%;
+  box-shadow: 0 0.5px 2px #000;
+  -webkit-box-shadow: 0 0.5px 2px #000;
+  padding: 30px 10px 10px 10px;
 
-    .collabs {
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 50px;
-    }
+  .collabs {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
 
-    .title {
-      font-style: italic;
-      left: -2px;
-      position: relative;
-    }
+  .title {
+    font-style: italic;
+    left: -2px;
+    position: relative;
+  }
 
-    .venue, .type {
-      font-size: 12pt;
-    }
+  .venue, .type {
+    font-size: 12pt;
+  }
 
-    .venue {
-      margin-bottom: 50px;
-    }
+  .venue {
+    margin-bottom: 50px;
+  }
 
-    .desc {
-      font-size: 12pt;
-      margin-bottom: 50px;
-    }
+  .desc {
+    font-size: 12pt;
+    margin-bottom: 50px;
+  }
 
-    .links {
-      font-size: 12pt;
-      a {
-        margin-right: 20px;
-      }
+  .links {
+    font-size: 12pt;
+    a {
+      margin-right: 20px;
     }
   }
 }
@@ -94,7 +97,7 @@ section {
     display: table-cell;
     vertical-align: middle;
     position: relative;
-    width:100vw;
+    width:100%;
     height:100px;
     max-width: 800px;
   }
@@ -304,15 +307,13 @@ export default function(state, emit) {
     return html`
       <section id="section-${s.id}">
         <div class="thumbnail">${imageElt}</div>
-        <div class="caption-holder">
-          <div class="caption">
-            <div class="collabs">${collabs}</div>
-            <div><span class="title">${ title }</span>, <span class="date">${ dateYear }</span></div>
-            <div class="type">${ types }${ topics.length ? "; " : "" } ${ topics }</div>
-            <div class="venue">${ venueElt }</div>
-            <p class="desc">${ desc }</p>
-            <p class="links">${ link }</p>
-          </div>
+        <div class="caption">
+          <div class="collabs">${collabs}</div>
+          <div><span class="title">${ title }</span>, <span class="date">${ dateYear }</span></div>
+          <div class="type">${ types }${ topics.length ? "; " : "" } ${ topics }</div>
+          <div class="venue">${ venueElt }</div>
+          <p class="desc">${ desc }</p>
+          <p class="links">${ link }</p>
         </div>
       </section>
   `});
