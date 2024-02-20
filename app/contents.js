@@ -21,15 +21,9 @@ The performance is a “petri dish” where something happens as if in the lab e
 Elements on (and outside the) stage include bodies, nail polish, moving lights, pop songs, shiny jackets, websites loaded with artificial intelligence text-generation models, and video projection of live-generated code. The performance is followed by an artist talk and a walkthrough of the interactive technology used on the stage.
 </p>
 <p>
-Artists: Jorge Guevara and Naoto Hieda
-</p>
-<p>
-Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia
-</p>
-<p>
-Tech support: Kino Šiška  
-</p>
-<p>
+Artists: Jorge Guevara and Naoto Hieda<br />
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
+Tech support: Kino Šiška<br />
 Photo: Urška Boljkovac/Kino Šiška
 </p>
 <p>
@@ -99,8 +93,13 @@ If I were to wear only a piece of clothes, it would be a sweater.
     image: "https://cdn.glitch.global/3270db08-a907-4d35-b607-28d9297445c9/411929223_1266106421443644_6534368842755878499_n.jpg?v=1703224828126",
     links: ["https://bootywithoutorgans.glitch.me/"],
     desc: html`
-    Techncial direction: Naoto Hieda
-    `
+    <div>
+Written and directed by Anastasiia Pishchanska<br />
+Technical direction and development: Naoto Hieda<br />
+Dance and performance: 雷はつ菜, 鈴木亜子, なおと, まお<br />
+Instagram: @bootywithoutorgans
+    </div>
+`
   },
   {
     start: new Date("December 7, 2023"),
