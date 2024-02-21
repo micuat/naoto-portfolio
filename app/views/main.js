@@ -32,6 +32,7 @@ section {
 
 @media print {
   section {
+    margin: auto;
     break-inside: avoid;
   }
 }
