@@ -18,9 +18,6 @@ Bodies, colorful objects, live-codes and glitter pixels continuously change thei
 The performance is a “petri dish” where something happens as if in the lab environment, but there is no linearity nor anecdote. It is the audience members – being active spectators – who have to make sense of the phenomena on the stage as if they are scientists.
 </p>
 <p>
-Elements on (and outside the) stage include bodies, nail polish, moving lights, pop songs, shiny jackets, websites loaded with artificial intelligence text-generation models, and video projection of live-generated code. The performance is followed by an artist talk and a walkthrough of the interactive technology used on the stage.
-</p>
-<p>
 Artists: Jorge Guevara and Naoto Hieda<br />
 Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
 Tech support: Kino Šiška<br />

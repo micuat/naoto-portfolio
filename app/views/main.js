@@ -30,6 +30,12 @@ section {
   }
 }
 
+@media print {
+  section {
+    break-inside: avoid;
+  }
+}
+
 .caption {
   max-width: 700px;
   box-sizing:content-box;
