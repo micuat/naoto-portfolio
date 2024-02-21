@@ -209,6 +209,7 @@ export default function(state, emit) {
     const filtersY = [];
     for (const t of [
       "all",
+      "2024",
       "2023",
       "2022",
       "2021",
