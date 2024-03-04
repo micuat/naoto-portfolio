@@ -1410,6 +1410,7 @@ Exhibited as part of "ctrl+space" by Christian Sievers`
     topic: ["web"],
     collab: ["Amir Shpilman"],
     venue: "Die Irritierte Stadt (Germany)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/circles.jpg?v=1709574263935",
     desc: html`
       <div>
       Web app: Naoto Hieda<br />
@@ -1575,6 +1576,7 @@ Algorithm | Degeneracy is a hybrid live-code-dance performance that travels betw
     topic: [],
     collab: ["Naoto Hieda"],
     venue: "Yoshino Gypsum Art Foundation",
+    image: "https://naotohieda.com/blog/assets/images/2020-02-06-khm-semester-1.jpg",
     desc: html`
     `
   },
@@ -1826,8 +1828,12 @@ Visual programming and machine learning: Naoto Hieda
     topic: ["openFrameworks"],
     collab: ["Shiseido", "R/GA"],
     venue: "S/PARK (Japan)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/beyondtime.jpg?v=1709574642082",
     desc: html`
-      Visual programming assistance: Naoto Hieda
+      <div>
+      Visual programming assistance: Naoto Hieda<br />
+      Image from R/GA
+      </div>
     `
   },
   {
@@ -2076,6 +2082,8 @@ image from tanzhaus nrw
     topic: ["machine learning"],
     collab: ["Kenichi Yoneda", "Naoto Hieda"],
     venue: "online",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/ml4a.jpg?v=1709574910273",
+    links: ["https://ml4a.github.io/ml4a/jp/neural_networks/"],
     desc: html`
     `
   },
