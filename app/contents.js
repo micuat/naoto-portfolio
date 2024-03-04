@@ -2254,8 +2254,12 @@ image from tanzhaus nrw
     topic: ["dance", "openFrameworks", "max"],
     collab: ["Christopher Matthews"],
     venue: "Villa Empain (Belgium)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/Christopher_Matthews_MBAE_WildCard_5888.jpg?v=1709575077642",
     desc: html`
-      Sound programming: Naoto Hieda
+      <div>
+      Sound programming: Naoto Hieda<br />
+      <a target="_blank" href="http://www.formedview.com/lads-201718-n">Image source</a>
+      </div>
     `
   },
   {
