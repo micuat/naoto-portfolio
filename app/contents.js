@@ -216,6 +216,7 @@ Instagram: @bootywithoutorgans
     topic: [],
     collab: ["Takeshi Mukai", "Naoto Hieda"],
     venue: "showusyourscreens (Germany)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/show-you.png?v=1709573611813",
     links: [],
     desc: html`
     `
@@ -629,6 +630,7 @@ Instagram: @bootywithoutorgans
     topic: ["community"],
     collab: ["Naoto Hieda"],
     venue: "University of the Arts London (online)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/ual.png?v=1709573765565",
     desc: html`
       Invited by Joana Chicau
     `
@@ -951,6 +953,7 @@ Sponsored by Processing Community Japan (PCJ)
     topic: ["dance", "openFrameworks", "max"],
     collab: ["Christopher Matthews"],
     venue: "Sadler's Wells Theater",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/lads-salders.jpg?v=1709573997236",
     links: ["https://www.sadlerswells.com/whats-on/2021/wild-card-christopher-matthews-formed-view-my-bodys-an-exhibition/"],
     desc: html`
       Sound programming: Naoto Hieda
@@ -1408,7 +1411,10 @@ Exhibited as part of "ctrl+space" by Christian Sievers`
     collab: ["Amir Shpilman"],
     venue: "Die Irritierte Stadt (Germany)",
     desc: html`
-      Web app: Naoto Hieda
+      <div>
+      Web app: Naoto Hieda<br />
+      <a target="_blank" href="https://www.stuttgarter-nachrichten.de/inhalt.performance-in-stuttgart-das-stadtgefuege-als-vielstimmige-klangwolke.bfab86d0-88fd-4f9c-b3f5-a21d9e25811a.html">Image source</a>
+      </div>
     `
   },
   {
