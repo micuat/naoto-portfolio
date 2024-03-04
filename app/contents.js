@@ -2458,6 +2458,7 @@ image from tanzhaus nrw
     topic: ["3D scan", "openFrameworks"],
     collab: ["Naoto Hieda"],
     venue: "Virtual Reality Hackathon (Canada)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/g3.jpg?v=1709576357794",
     links: ["https://devpost.com/software/glitch-3d"],
     desc: html`
     `
@@ -2469,6 +2470,7 @@ image from tanzhaus nrw
     topic: ["face tracking", "openFrameworks"],
     collab: ["Naoto Hieda"],
     venue: "Hack Day (Canada)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/goetp.jpg?v=1709576511315",
     links: ["https://vimeo.com/164074864"],
     desc: html`
     

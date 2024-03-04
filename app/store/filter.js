@@ -4,6 +4,7 @@ import html from "choo/html";
 import contents from "../contents.js";
 
 export default (state, emitter) => {
+  console.log("count", contents.length);
   let id = 0;
   const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
   const dates = [];
