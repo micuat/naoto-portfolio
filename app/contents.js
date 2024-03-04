@@ -130,7 +130,7 @@ Instagram: @bootywithoutorgans
     topic: [],
     collab: ["Naoto Hieda"],
     venue: "FIfFKon (Germany)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/fiff.jpg?v=1709573256055",
     links: [],
     desc: html`
     `
@@ -142,7 +142,7 @@ Instagram: @bootywithoutorgans
     topic: [],
     collab: ["Ground Zero"],
     venue: "FIfFKon (Germany)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/fiff-talk.jpg?v=1709573256055",
     links: [],
     desc: html`
     `
@@ -154,7 +154,7 @@ Instagram: @bootywithoutorgans
     topic: [],
     collab: ["Naoto Hieda", "Tobias Hartmann"],
     venue: "Annual symposium of the Society for Dance Research (Germany)",
-    // image: "https://img.glitches.me/images/2023/09/11/339C8DCF-67BC-4A08-8972-2860764505FA.jpg",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/gtf.jpg?v=1709573495857",
     links: ["https://www.gtf-tanzforschung.de/en/convention/symposium-2023/"],
     desc: html`
     `
