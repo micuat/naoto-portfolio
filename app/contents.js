@@ -887,6 +887,19 @@ Sponsored by Processing Community Japan (PCJ)
     `
   },
   {
+    start: new Date("August 26, 2021"),
+    title: "Spheres",
+    type: ["performance"],
+    topic: ["dance"],
+    collab: ["Charlotte Triebus"],
+    // image:
+      // "https://cdn.glitch.com/cada0ae2-f902-428d-81e3-6a68f5e589e5%2Frh.png?v=1630336603964",
+    venue: "NRW Forum (Germany)",
+    desc: html`Software Development: Naoto Hieda
+    `,
+    links: ["https://www.spheres.dance/", "https://www.nrw-forum.de/en/exhibitions/welcome-to-paradise"],
+  },
+  {
     start: new Date("July 31, 2021"),
     title: "Best Practices in Contemporary Dance",
     type: ["performance", "net art"],
