@@ -1,6 +1,19 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("May 6, 2024"),
+    title: "IIOANA - Aqua Park (underground demo music video)",
+    type: ["video"],
+    topic: ["hydra"],
+    collab: ["IIOANA"],
+    venue: "Festival de la Imagen (Colombia)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708349107799",
+    links: ["https://www.youtube.com/watch?v=QX6ddYl-F8g", "https://festivaldelaimagen.com/en/portfolio-item/aqua-park/"],
+    desc: html`
+    Video: Naoto Hieda
+    `
+  },
+  {
     start: new Date("February 14, 2024"),
     title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
     type: ["performance"],
