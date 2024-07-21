@@ -1,6 +1,18 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("July 21, 2024"),
+    title: "Make a blog!",
+    type: ["workshop"],
+    topic: ["blog"],
+    collab: [],
+    venue: "CC Fest (online)",
+    image: "https://cdn.glitch.global/db1b729b-de25-4a65-bb5c-f27a3db771c7/IMG_0460.jpg?v=1721582238461",
+    links: ["https://ccfest-2024-blog.glitch.me/"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("May 6, 2024"),
     title: "IIOANA - Aqua Park (underground demo music video)",
     type: ["video"],
