@@ -15,6 +15,7 @@ var sc = [
     Photo: Doerthe Boxberg</div>
     `
   },
+  //aavistus here
   {
     start: new Date("October 1, 2024"),
     title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
