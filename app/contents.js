@@ -9,7 +9,10 @@ var sc = [
     venue: "Glasmoog / KHM (Germany)",
     image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/KHM_20241022_WS24_25_Preisverleihungen_DSC_5772_c_Doerthe_Boxberg.jpg?v=1729841221455",
     links: [],
-    desc: html`<div>Alumni award and exhibition<br /> Photo: Doerthe Boxberg</div>
+    desc: html`<div><i>Who is Naoto Hieda? Seems to me, is the essential, existential question that Naoto ask themself in every new artistic endeavor they engage into.</i> - Camilo Sandoval<br /><br />
+    Alumni award and exhibition<br /> 
+    Works: Naoto's Sweaters (with Frog Edogawa), Naoto's Cards (Japan-Taiwan Edition), New Banner (2023), Various prints and origami<br />
+    Photo: Doerthe Boxberg</div>
     `
   },
   {
