@@ -1,6 +1,48 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("October 21, 2024"),
+    title: "Kunstpreis 2024 der Freunde der KHM 2nd prize",
+    type: ["installation"],
+    topic: ["photography", "cards"],
+    collab: ["Naoto Hieda"],
+    venue: "Glasmoog / KHM (Germany)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/KHM_20241022_WS24_25_Preisverleihungen_DSC_5772_c_Doerthe_Boxberg.jpg?v=1729841221455",
+    links: [],
+    desc: html`<div>Alumni award and exhibition<br /> Photo: Doerthe Boxberg</div>
+    `
+  },
+  {
+    start: new Date("October 1, 2024"),
+    title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
+    type: ["performance"],
+    topic: ["hydra", "dance"],
+    venue: "MODINA / STL (Estonia)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/sfdcanbac-tallinn.png?v=1729841084206",
+    collab: ["Jorge Guevara", "Naoto Hieda"],
+    links: ["https://sfdcanbac-ux.glitch.me/"],
+    desc: html`<div>
+
+<p>
+Bodies, colorful objects, live-codes and glitter pixels continuously change their constellations on the stage – superimposing and subtracting, grouping and ungrouping – while the abundance of “actors” never arrives to a specific form.
+</p>
+<p>
+The performance is a “petri dish” where something happens as if in the lab environment, but there is no linearity nor anecdote. It is the audience members – being active spectators – who have to make sense of the phenomena on the stage as if they are scientists.
+</p>
+<p>
+Artists: Jorge Guevara and Naoto Hieda<br />
+Sound: robrrr<br />
+Artistic/Dramaturgical advice: Dani Bershan<br />
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
+Tech support: Kino Šiška<br />
+Photo: Urška Boljkovac/Kino Šiška
+</p>
+<p>
+The work is created within the framework of the MODINA project.
+</p>
+</div>`
+  },
+  {
     start: new Date("September 16, 2024"),
     title: "#bestpracticesincontemporarydance Banner",
     type: ["installation"],
@@ -334,7 +376,7 @@ Instagram: @bootywithoutorgans
     venue: "KHM Rundgang (Germany)",
     image: "https://img.glitches.me/images/2023/07/26/20230722_KHM_RundgangDSC_0739_c_Doerthe_Boxberg_sq.jpg",
     links: ["https://nail.glitches.me/"],
-    desc: html`
+    desc: html`Photo: Doerthe Boxberg
     `
   },
   {
@@ -746,6 +788,7 @@ Atelier Netze präsentiert die Online- und Offline-Ausstellung „[  ]ICADE“ m
     collab: ["Naoto Hieda"],
     venue: "KHM (Germany)",
     image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/japaneseBook.jpg?v=1646209611810",
+    links: ["https://www.khm.de/termine/news.5831.start-ins-wintersemester-2024-25-begruessung-der-erstsemester-mit-preisverleihungen-und-ausstellungseroeffnung/"],
     desc: html`Photo: Doerthe Boxberg
     `
   },
