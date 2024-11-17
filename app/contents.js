@@ -1,6 +1,36 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("November 8, 2024"),
+    title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
+    type: ["performance"],
+    topic: ["hydra", "dance"],
+    venue: "MODINA / CNDB (Romania)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/dc2d098958189c2d.png?v=1731869900983",
+    collab: ["Jorge Guevara", "Naoto Hieda"],
+    links: ["https://sfdcanbac-ux.glitch.me/"],
+    desc: html`<div>
+
+<p>
+Bodies, colorful objects, live-codes and glitter pixels continuously change their constellations on the stage – superimposing and subtracting, grouping and ungrouping – while the abundance of “actors” never arrives to a specific form.
+</p>
+<p>
+The performance is a “petri dish” where something happens as if in the lab environment, but there is no linearity nor anecdote. It is the audience members – being active spectators – who have to make sense of the phenomena on the stage as if they are scientists.
+</p>
+<p>
+Artists: Jorge Guevara and Naoto Hieda<br />
+Sound: robrrr<br />
+Artistic/Dramaturgical advice: Dani Bershan<br />
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
+Tech support: Kino Šiška<br />
+Photo: Urška Boljkovac/Kino Šiška
+</p>
+<p>
+The work is created within the framework of the MODINA project.
+</p>
+</div>`
+  },
+  {
     start: new Date("October 21, 2024"),
     title: "Kunstpreis 2024 der Freunde der KHM 2nd prize",
     type: ["installation"],
@@ -15,7 +45,18 @@ var sc = [
     Photo: Doerthe Boxberg</div>
     `
   },
-  //aavistus here
+  {
+    start: new Date("October 5, 2024"),
+    title: "Hands-On introduction to live coding with Hydra: Code, Remix, Break, Glitch & Dance",
+    type: ["workshop"],
+    topic: ["hydra"],
+    collab: [],
+    venue: "Aavistus Festival (Finland)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/Aavistus_2024_HKM_Workshop_NaotoHieda_SusseSeppa%CC%88la%CC%88-4.jpg?v=1731870232141",
+    links: ["https://www.aavistusfestival.fi/artists/workshops/naoto-hieda"],
+    desc: html`Photo: Susse Seppälä
+    `
+  },
   {
     start: new Date("October 1, 2024"),
     title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
