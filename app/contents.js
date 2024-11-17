@@ -89,7 +89,7 @@ The work is created within the framework of the MODINA project.
   },
   {
     start: new Date("September 16, 2024"),
-    title: "#bestpracticesincontemporarydance Banner",
+    title: "#bestpracticesincontemporarydance Banners",
     type: ["installation"],
     topic: ["hydra"],
     collab: ["Naoto Hieda", "Jorge Guevara"],
