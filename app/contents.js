@@ -22,8 +22,6 @@ Artists: Jorge Guevara and Naoto Hieda<br />
 Sound: robrrr<br />
 Artistic/Dramaturgical advice: Dani Bershan<br />
 Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
-Tech support: Kino Šiška<br />
-Photo: Urška Boljkovac/Kino Šiška
 </p>
 <p>
 The work is created within the framework of the MODINA project.
@@ -78,9 +76,7 @@ The performance is a “petri dish” where something happens as if in the lab e
 Artists: Jorge Guevara and Naoto Hieda<br />
 Sound: robrrr<br />
 Artistic/Dramaturgical advice: Dani Bershan<br />
-Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
-Tech support: Kino Šiška<br />
-Photo: Urška Boljkovac/Kino Šiška
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia
 </p>
 <p>
 The work is created within the framework of the MODINA project.
