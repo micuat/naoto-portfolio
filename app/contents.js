@@ -1,6 +1,20 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("December 20, 2024"),
+    title: "Performing Code{s}",
+    type: ["lecture"],
+    topic: ["hydra", "algorithm"],
+    venue: "Lucerne University of Applied Sciences and Arts (Switzerland)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/vlcsnap-2024-12-21-15h13m07s208.png?v=1734826050336",
+    collab: ["Joana Chicau", "Naoto Hieda"],
+    links: [],
+    desc: html`<div>
+"In this course we will collectively analyse the theory behind artistic projects and approaches. We will engage in a series of practical explorations using algorithmic processes and programming languages (JavaScript) for performing a sequence of actions. At the end, students will present their works in a WIP show." <br />
+Screenshot by Stella, Luna and Cosi
+</div>`
+  },
+  {
     start: new Date("November 8, 2024"),
     title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
     type: ["performance"],
