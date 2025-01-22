@@ -211,6 +211,19 @@ If I were to wear only a piece of clothes, it would be a sweater.
     </div>`
   },
   {
+    start: new Date("January 15, 2024"),
+    title: "IIOANA - Aqua Park (underground demo music video)",
+    type: ["video"],
+    topic: [],
+    collab: ["IIOANA"],
+    venue: "online",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708349107799",
+    links: ["https://www.youtube.com/watch?v=QX6ddYl-F8g"],
+    desc: html`
+    Video: Naoto Hieda
+    `
+  },
+  {
     start: new Date("December 18, 2023"),
     title: "Palallel",
     type: ["publication"],
@@ -230,19 +243,6 @@ If I were to wear only a piece of clothes, it would be a sweater.
       Japanese people mixing up r and l consonants. <br />
       Published by Bad Quarto
     </div>`
-  },
-  {
-    start: new Date("January 15, 2024"),
-    title: "IIOANA - Aqua Park (underground demo music video)",
-    type: ["video"],
-    topic: [],
-    collab: ["IIOANA"],
-    venue: "online",
-    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/aquapark.jpg?v=1708349107799",
-    links: ["https://www.youtube.com/watch?v=QX6ddYl-F8g"],
-    desc: html`
-    Video: Naoto Hieda
-    `
   },
   {
     start: new Date("December 14, 2023"),
