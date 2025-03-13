@@ -36,9 +36,9 @@ Screenshot by Stella, Luna and Cosi
     type: ["performance"],
     topic: ["hydra", "dance"],
     venue: "MODINA / CoFestival / Kino Šiška (Slovenia)",
-    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/dc2d098958189c2d.png?v=1731869900983",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/guevara-hieda-sfdcanbac%2B%2B_49.JPG?v=1741874826074",
     collab: ["Jorge Guevara", "Naoto Hieda"],
-    links: ["https://sfdcanbac-ux.glitch.me/"],
+    links: ["https://sfdcanbac-ux.glitch.me/", "https://www.youtube.com/watch?v=c9YbRjCuqOs"],
     desc: html`<div>
 
 <p>
@@ -55,6 +55,9 @@ Technical Mentorship and development: Andreia Matos, William Primett and Nuno N.
 </p>
 <p>
 The work is created within the framework of the MODINA project.
+</p>
+<p>
+Photo: Urška Boljkovac/Kino Šiška
 </p>
 </div>`
   },
