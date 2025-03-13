@@ -1,6 +1,22 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("March 8, 2025"),
+    title: "stage.glitches.me",
+    type: ["performance"],
+    topic: ["dance"],
+    venue: "Kanuti Gildi Saal (Estonia)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/Marlene_Leppanen_08_03_25-330-land.jpg?v=1741874382420",
+    collab: ["Naoto Hieda"],
+    links: ["https://stage.glitches.me/"],
+    desc: html`<div>
+Photo: Marlene Leppänen
+<p>
+
+</p>
+</div>`
+  },
+  {
     start: new Date("December 20, 2024"),
     title: "Performing Code{s}",
     type: ["lecture"],
@@ -12,6 +28,34 @@ var sc = [
     desc: html`<div>
 "In this course we will collectively analyse the theory behind artistic projects and approaches. We will engage in a series of practical explorations using algorithmic processes and programming languages (JavaScript) for performing a sequence of actions. At the end, students will present their works in a WIP show." <br />
 Screenshot by Stella, Luna and Cosi
+</div>`
+  },
+  {
+    start: new Date("November 26, 2024"),
+    title: "Stage for Digital, Contagious, and Networked Bodies and Code++ (SFDCANBAC++)",
+    type: ["performance"],
+    topic: ["hydra", "dance"],
+    venue: "MODINA / CoFestival / Kino Šiška (Slovenia)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/dc2d098958189c2d.png?v=1731869900983",
+    collab: ["Jorge Guevara", "Naoto Hieda"],
+    links: ["https://sfdcanbac-ux.glitch.me/"],
+    desc: html`<div>
+
+<p>
+Bodies, colorful objects, live-codes and glitter pixels continuously change their constellations on the stage – superimposing and subtracting, grouping and ungrouping – while the abundance of “actors” never arrives to a specific form.
+</p>
+<p>
+The performance is a “petri dish” where something happens as if in the lab environment, but there is no linearity nor anecdote. It is the audience members – being active spectators – who have to make sense of the phenomena on the stage as if they are scientists.
+</p>
+<p>
+Artists: Jorge Guevara and Naoto Hieda<br />
+Sound: robrrr<br />
+Artistic/Dramaturgical advice: Dani Bershan<br />
+Technical Mentorship and development: Andreia Matos, William Primett and Nuno N. Correia<br />
+</p>
+<p>
+The work is created within the framework of the MODINA project.
+</p>
 </div>`
   },
   {
