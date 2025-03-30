@@ -1,8 +1,38 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("March 24, 2025"),
+    title: "Choreographic Coding Labs",
+    type: ["meetup"],
+    topic: ["dance"],
+    venue: "A+E Lab (UK)",
+    // image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/Marlene_Leppanen_08_03_25-330-land.jpg?v=1741874382420",
+    collab: ["Naoto Hieda"],
+    // links: ["https://stage.glitches.me/"],
+    desc: html`<div>
+<p>
+
+</p>
+</div>`
+  },
+  {
+    start: new Date("March 20, 2025"),
+    title: html`<a href="https://archive.glitches.me" target="_blank">archive.glitches.me</a>`,
+    type: ["lecture"],
+    topic: ["dance"],
+    venue: "LAB111 / LI-MA (Netherlands)",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/vlcsnap-2025-03-30-12h44m09s867.png?v=1743327877096",
+    collab: ["Naoto Hieda"],
+    links: ["https://archive.glitches.me/", "https://li-ma.nl/article/transformation-digital-art-2025/"],
+    desc: html`<div>
+<p>
+
+</p>
+</div>`
+  },
+  {
     start: new Date("March 8, 2025"),
-    title: "stage.glitches.me",
+    title: html`<a href="https://stage.glitches.me" target="_blank">stage.glitches.me</a>`,
     type: ["performance"],
     topic: ["dance"],
     venue: "Kanuti Gildi Saal (Estonia)",
