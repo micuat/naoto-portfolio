@@ -621,7 +621,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("March 4, 2023"),
-    title: "solo.glitches.me",
+    title: html`<a href="https://solo.glitches.me" target="_blank">solo.glitches.me</a>`,
     type: ["performance"],
     topic: ["net art"],
     collab: ["Naoto Hieda"],
@@ -632,7 +632,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("March 1, 2023"),
-    title: "soup.glitches.me",
+    title: html`<a href="https://soup.glitches.me" target="_blank">soup.glitches.me</a>`,
     type: ["installation"],
     topic: ["net art"],
     collab: ["Naoto Hieda"],
@@ -656,7 +656,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("November 29, 2022"),
-    title: "solo.glitches.me",
+    title: html`<a href="https://solo.glitches.me" target="_blank">solo.glitches.me</a>`,
     type: ["performance"],
     topic: ["body", "dance"],
     collab: ["Naoto Hieda"],
@@ -668,7 +668,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("November 8, 2022"),
-    title: "solo.glitches.me",
+    title: html`<a href="https://solo.glitches.me" target="_blank">solo.glitches.me</a>`,
     type: ["performance"],
     topic: ["body", "dance"],
     collab: ["Naoto Hieda"],
@@ -702,7 +702,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("October 11, 2022"),
-    title: "solo.glitches.me",
+    title: html`<a href="https://solo.glitches.me" target="_blank">solo.glitches.me</a>`,
     type: ["performance"],
     topic: ["body", "language"],
     collab: ["Naoto Hieda"],
@@ -878,7 +878,7 @@ Instagram: @bootywithoutorgans
   },
   {
     start: new Date("March 10, 2022"),
-    title: "riso.glitches.me",
+    title: html`<a href="https://riso.glitches.me" target="_blank">riso.glitches.me</a>`,
     type: ["installation"],
     topic: ["risograph"],
     collab: ["Naoto Hieda"],
