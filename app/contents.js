@@ -6,12 +6,12 @@ var sc = [
     type: ["meetup"],
     topic: ["dance"],
     venue: "A+E Lab (UK)",
-    // image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/Marlene_Leppanen_08_03_25-330-land.jpg?v=1741874382420",
+    image: "https://cdn.glitch.global/cada0ae2-f902-428d-81e3-6a68f5e589e5/DSCF3670.jpg?v=1743342060866",
     collab: ["Naoto Hieda"],
     // links: ["https://stage.glitches.me/"],
     desc: html`<div>
 <p>
-
+Photo: Stathis Doganis
 </p>
 </div>`
   },
