@@ -16,7 +16,7 @@
     "vite": "^4.4.9"
   },
   "engines": {
-    "node": "16.x"
+    "node": "22.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/naoto-portfolio"
