@@ -2036,6 +2036,17 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("July 1, 2025"),
+    title: "Rubber Band Memories",
+    type: ["net art"],
+    topic: ["body politics"],
+    venue: "CHI 2025 (Japan)",
+    image: "/rubberband.png",
+    collab: ["Anna Brynskov", "Joana Chicau", "Sophie Grimme", "Naoto Hieda"],
+    links: ["https://rubberband.glitches.me/"],
+    desc: html`<div>Content created during <a href="https://bodypoliticschi.wordpress.com/" target="_blank">Body Politics Workshop at CHI 2025</a>, website by Naoto</div>`
+  },
+  {
     start: /* @__PURE__ */ new Date("March 24, 2025"),
     title: "Choreographic Coding Labs",
     type: ["meetup"],
