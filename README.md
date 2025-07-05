@@ -1,4 +1,4 @@
 easy portfolio
 ========
 
-by naoto
+by [naoto](https://naotohieda.com)
