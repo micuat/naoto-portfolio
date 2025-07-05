@@ -66,7 +66,7 @@ Screenshot by Stella, Luna and Cosi
     type: ["performance"],
     topic: ["hydra", "dance"],
     venue: "MODINA / CoFestival / Kino Šiška (Slovenia)",
-    image: "/guevara-hieda-sfdcanbac%2B%2B_49.JPG",
+    image: "/guevara-hieda-sfdcanbac++_49.JPG",
     collab: ["Jorge Guevara", "Naoto Hieda"],
     links: ["https://sfdcanbac-ux.glitch.me/", "https://www.youtube.com/watch?v=c9YbRjCuqOs"],
     desc: html`<div>
@@ -141,7 +141,7 @@ The work is created within the framework of the MODINA project.
     topic: ["hydra"],
     collab: [],
     venue: "Aavistus Festival (Finland)",
-    image: "/Aavistus_2024_HKM_Workshop_NaotoHieda_SusseSeppa%CC%88la%CC%88-4.jpg",
+    image: "/Aavistus_2024_HKM_Workshop_NaotoHieda_SusseSeppälä-4.jpg",
     links: ["https://www.aavistusfestival.fi/artists/workshops/naoto-hieda"],
     desc: html`Photo: Susse Seppälä
     `
@@ -741,7 +741,7 @@ Instagram: @bootywithoutorgans
     topic: ["hydra", "livelab"],
     collab: ["Jorge Guevara", "Naoto Hieda"],
     venue: "PerformingArtsForum (France)",
-    image: "/Screenshot%202022-11-10%20at%2011-47-42%202022%2007%2012%20Best%20Practices%20Workshop%20(Participants%20at%20PAF%20%40Jorge%20Guevara%20%26%20Naoto%20Hieda).png",
+    image: "/Screenshot 2022-11-10 at 11-47-42 2022 07 12 Best Practices Workshop (Participants at PAF @Jorge Guevara & Naoto Hieda).png",
     desc: html`
     `
   },
@@ -972,7 +972,7 @@ Sponsored by Processing Community Japan (PCJ)
     topic: ["web", "hydra"],
     collab: ["Ekheo"],
     venue: "Hijack Crack Bellmer (Germany)",
-    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5%2Fvlcsnap-2021-11-18-10h55m20s617.png",
+    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5_vlcsnap-2021-11-18-10h55m20s617.png",
     desc: html`
       Video: Naoto Hieda
     `
@@ -1027,7 +1027,7 @@ Sponsored by Processing Community Japan (PCJ)
     collab: ["Ekheo"],
     venue: "Conversations with Computers (Austria)",
     links: ["https://cwc.radical-openness.org/"],
-    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5%2Fvlcsnap-2021-11-18-10h55m20s617.png",
+    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5_vlcsnap-2021-11-18-10h55m20s617.png",
     desc: html`
       Video: Naoto Hieda
     `
@@ -1040,7 +1040,7 @@ Sponsored by Processing Community Japan (PCJ)
     collab: ["Naoto Hieda"],
     venue: "Conversations with Computers (Austria)",
     links: ["https://cwc.radical-openness.org/"],
-    image: "/f61e9156-1be6-44f2-84b8-d6fa7844ff0e%2Fopening01.jpg",
+    image: "/f61e9156-1be6-44f2-84b8-d6fa7844ff0e_opening01.jpg",
     desc: html`
       A laptop installation and a banner
     `
@@ -1066,7 +1066,7 @@ Sponsored by Processing Community Japan (PCJ)
     collab: ["Amir Shpilman"],
     venue: "Die Irritierte Stadt (Germany)",
     links: ["https://www.irritiertestadt.de/"],
-    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5%2Fcircles-stuttgarter-hymnuschorknaben-c-armin-burkhardt.jpg",
+    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5_circles-stuttgarter-hymnuschorknaben-c-armin-burkhardt.jpg",
     desc: html`
       Web app: Naoto Hieda<br>
       Photo credit: Armin Burkhardt
@@ -2195,7 +2195,7 @@ image from tanzhaus nrw
     topic: ["openFrameworks"],
     collab: ["Matilda"],
     venue: "Mikimoto (Japan)",
-    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5%2FIMG_4349.JPG",
+    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5_IMG_4349.JPG",
     desc: html`
       Visual programming: Naoto Hieda
     `
@@ -2313,7 +2313,7 @@ image from tanzhaus nrw
     topic: ["openFrameworks"],
     collab: ["Matilda"],
     venue: "Swatch (Japan)",
-    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5%2FIMG_2495.JPG",
+    image: "/cada0ae2-f902-428d-81e3-6a68f5e589e5_IMG_2495.JPG",
     desc: html`
       Visual programming: Naoto Hieda
     `
