@@ -1,6 +1,72 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("September 26, 2025"),
+    title: "card.glitches.me",
+    type: ["workshop"],
+    topic: ["dance", "card"],
+    image: "/gtf2025.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "Annual symposium of the Society for Dance Research (Germany)",
+    links: ["https://www.gtf-tanzforschung.de/en/convention/symposium-2025/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("September 14, 2025"),
+    title: "Introduction to live coding with Hydra",
+    type: ["workshop"],
+    topic: ["hydra"],
+    image: "/nodecode-ws.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "NODE+CODE (Germany)",
+    links: ["https://nodeforum.org/announcements/workshop-introduction-to-live-coding-with-hydra/", "https://www.youtube.com/live/R2cvbOaA2PI"],
+    desc: html``
+  },
+  {
+    start: new Date("September 13, 2025"),
+    title: "NODE+CODE #21 – On The Move",
+    type: ["lecture"],
+    topic: ["hydra"],
+    image: "/nodecode.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "NODE+CODE (Germany)",
+    links: ["https://nodeforum.org/announcements/nodecode-21-on-the-move/"],
+    desc: html``
+  },
+  {
+    start: new Date("September 12, 2025"),
+    title: "CCL Zine",
+    type: ["publication"],
+    topic: ["dance"],
+    collab: ["Alex Roidl", "Naoto Hieda"],
+    venue: "Choreographic Coding Lab (Germany)",
+    links: ["https://ccl-zine.glitches.me/"],
+    desc: html``
+  },
+  {
+    start: new Date("August 8, 2025"),
+    title: "Performance",
+    type: ["performance"],
+    topic: ["dance"],
+    venue: "Angewandte (Austria)",
+    image: "/2025-08-08-angewandte.jpg",
+    collab: ["Naoto Hieda", "robrrr"],
+    links: ["https://www.youtube.com/live/gw-mcn26o5A"],
+    desc: html``
+  },
+  {
+    start: new Date("July 21, 2025"),
+    title: "card.glitches.me",
+    type: ["workshop"],
+    topic: ["card", "dance"],
+    venue: "LACE Extended / ImPulsTanz (Austria)",
+    image: "/lace.jpg",
+    collab: ["Naoto Hieda"],
+    links: ["https://card.glitches.me"],
+    desc: html``
+  },
+  {
     start: new Date("July 1, 2025"),
     title: "Rubber Band Memories",
     type: ["net art"],
