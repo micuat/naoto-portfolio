@@ -2036,6 +2036,19 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("October 10, 2025"),
+    title: "Digitale Welten",
+    type: ["workshop"],
+    topic: ["code", "hackathon"],
+    image: "/2025-10-10-dw.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "Digitale Welten (Germany)",
+    links: ["https://www.digitale-welten.org/"],
+    desc: html`
+    Participated as an artist, created a zine with Alex Roidl and Elizaveta Kazantseva
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("September 26, 2025"),
     title: "card.glitches.me",
     type: ["workshop"],
