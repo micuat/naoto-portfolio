@@ -2036,6 +2036,19 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("November 3, 2025"),
+    title: "card.glitches.me",
+    type: ["workshop"],
+    topic: ["dance", "card"],
+    image: "/2025-11-03-card.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "Trafó (Hungary)",
+    links: ["https://trafo.hu/en/programs/mesterseges_valosagok_modina_seminar"],
+    desc: html`
+    Workshop at Artificial Realities Free School, supported by MODINA
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("October 10, 2025"),
     title: "Digitale Welten",
     type: ["workshop"],
