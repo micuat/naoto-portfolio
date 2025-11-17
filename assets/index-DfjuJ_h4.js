@@ -2036,6 +2036,18 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("November 14, 2025"),
+    title: "Naoto's Cards",
+    type: ["installation"],
+    topic: ["card"],
+    image: "/2025-11-14-yoshino.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "Spiral / Yoshino Art Connect Vol.4 (Japan)",
+    links: ["https://www.spiral.co.jp/topics/yoshino_art_connect"],
+    desc: html`
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("November 3, 2025"),
     title: "card.glitches.me",
     type: ["workshop"],
