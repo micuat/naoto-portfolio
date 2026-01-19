@@ -1,6 +1,43 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("January 17, 2026"),
+    title: "card.glitches.me/workshop",
+    type: ["workshop"],
+    topic: ["dance", "card"],
+    image: "/2026-01-17-card.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "STL (Estonia)",
+    links: ["https://www.stl.ee/en/lisaprogramm/workshops/modina-card-glitches-me-workshop"],
+    desc: html`
+    Workshop supported by MODINA
+    `
+  },
+  {
+    start: new Date("January 9, 2026"),
+    title: "Hydra for a Safer World",
+    type: ["installation"],
+    topic: ["hydra", "ml"],
+    image: "/2026-01-09-hydra.jpg",
+    collab: ["Sian Morrell", "Jash Yuan", "Ngo Chun Phoenix Tse", "Flor de Fuego", "Naoto Hieda"],
+    venue: "New Media Art Club (UK)",
+    links: ["https://computala.glitches.me/"],
+    desc: html`
+    `
+  },
+  {
+    start: new Date("January 7, 2026"),
+    title: "Teachable Machine Bootcamp",
+    type: ["workshop"],
+    topic: ["hydra", "ml"],
+    image: "/2026-01-07-hydra.jpg",
+    collab: ["Flor de Fuego", "Naoto Hieda"],
+    venue: "New Media Art Club (UK)",
+    links: ["https://computala.glitches.me/"],
+    desc: html`
+    `
+  },
+  {
     start: new Date("November 14, 2025"),
     title: "Naoto's Cards",
     type: ["installation"],
