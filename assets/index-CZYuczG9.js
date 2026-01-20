@@ -2073,6 +2073,23 @@ var sc = [
     `
   },
   {
+    start: /* @__PURE__ */ new Date("December 16, 2025"),
+    title: "A Swan Couple Dives for Dinner",
+    type: ["publication"],
+    topic: ["html"],
+    venue: "Taper #15",
+    image: "/2025-12-16-swan.png",
+    collab: ["ANNAOTO"],
+    links: ["https://taper.badquar.to/15/swan_couple_dives.html"],
+    desc: html`<div>
+      This artwork consists of two digital haiku poems forming a crossroad
+between land and sea. Our process evolved on the Danish island in The
+Baltic Sea called Bornholm. You can find the full description in the source code in the link.<br />
+MADE BY ANNAOTO: Naoto Hieda & Anna Brynskov<br />
+      Published by Bad Quarto
+    </div>`
+  },
+  {
     start: /* @__PURE__ */ new Date("November 14, 2025"),
     title: "Naoto's Cards",
     type: ["installation"],
