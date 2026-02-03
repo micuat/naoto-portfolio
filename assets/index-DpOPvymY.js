@@ -2036,6 +2036,19 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("January 30, 2026"),
+    title: "card.glitches.me/workshop",
+    type: ["workshop"],
+    topic: ["dance", "card"],
+    image: "/2026-01-30-card.png",
+    collab: ["Naoto Hieda"],
+    venue: "TakeMoreCare (online)",
+    links: ["https://takemorecare.cargo.site/"],
+    desc: html`
+    Workshop hosted by TakeMoreCare (Lili M. Rampre & Valerie Wehrens)
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("January 17, 2026"),
     title: "card.glitches.me/workshop",
     type: ["workshop"],
