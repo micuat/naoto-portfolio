@@ -1,6 +1,39 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("March 1, 2026"),
+    title: "TalentLAB",
+    type: ["residency"],
+    topic: ["dance"],
+    collab: ["Data Mama"],
+    venue: "Théâtres de la Ville de Luxembourg (Luxembourg)",
+    image: "/2026-03-01-talent.jpg",
+    desc: html`Residency as a collective Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)
+    `
+  },
+  {
+    start: new Date("February 19, 2026"),
+    title: "play with display",
+    type: ["workshop"],
+    topic: ["hydra"],
+    // image: "/nodecode-ws.jpg",
+    collab: ["Naoto Hieda"],
+    venue: "display / NODE (Germany)",
+    links: ["https://nodeforum.org/announcements/workshop-play-with-display/"],
+    desc: html``
+  },
+  {
+    start: new Date("February 18, 2026"),
+    title: "display:on - House Warming Party",
+    type: ["performance"],
+    topic: ["hydra"],
+    image: "/2026-02-18-display.jpg",
+    collab: ["NODE"],
+    venue: "display / NODE (Germany)",
+    links: ["https://d-i-s-p-l-a-y.de/de/events/display-on-house-warming-party"],
+    desc: html`Hydra visual performance at display launch event / music by Shammer & Luggez`
+  },
+  {
     start: new Date("January 30, 2026"),
     title: "card.glitches.me/workshop",
     type: ["workshop"],
@@ -14,6 +47,18 @@ var sc = [
     `
   },
   {
+    start: new Date("January 24, 2026"),
+    title: "MODINA Symposium: Dancing in the Digital Age",
+    type: ["lecture"],
+    topic: ["dance"],
+    collab: ["MODINA"],
+    venue: "LAVAstudio (Germany)",
+    image: "/2026-01-24-symposium.jpg",
+    links: ["https://www.youtube.com/watch?v=nyQLENiz_YY"],
+    desc: html`Participation in a panel discussion as a selected artist
+    `
+  },
+    {
     start: new Date("January 17, 2026"),
     title: "card.glitches.me/workshop",
     type: ["workshop"],
