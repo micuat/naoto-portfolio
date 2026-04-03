@@ -108,7 +108,7 @@ var sc = [
       This artwork consists of two digital haiku poems forming a crossroad
 between land and sea. Our process evolved on the Danish island in The
 Baltic Sea called Bornholm. You can find the full description in the source code in the link.<br />
-MADE BY ANNAOTO: Naoto Hieda & Anna Brynskov<br />
+MADE BY ANNAOTO: Anna Brynskov & Naoto Hieda<br />
       Published by Bad Quarto
     </div>`
   },
