@@ -2047,6 +2047,20 @@ var sc = [
     `
   },
   {
+    start: /* @__PURE__ */ new Date("April 24, 2026"),
+    title: "Generative Art & Design: Algorithms in Motion",
+    type: ["lecture"],
+    topic: ["design", "algorithm"],
+    venue: "Lucerne University of Applied Sciences and Arts (Switzerland)",
+    image: "/2026-04-24-generative.png",
+    collab: ["Naoto Hieda", "Joana Chicau"],
+    links: [],
+    desc: html`<div>
+"In this course we will be analysing references from practitioners in the field of generative art and design, and collectively discuss the various approaches. We will be experimenting with browser based tools such as P5.JS and a set of JavaScript libraries for generative composition making. At the end, all students are invited to contribute to a split-second virtual exhibition of their works." <br />
+Screenshot by Luna, Livio, Olivia and Lars (<a href="https://editor.p5js.org/laese/sketches/o9zDMYmFf" target="_blank">Link</a>)
+</div>`
+  },
+  {
     start: /* @__PURE__ */ new Date("March 1, 2026"),
     title: "TalentLAB",
     type: ["residency"],
