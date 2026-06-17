@@ -8,7 +8,7 @@ var sc = [
     collab: ["Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)"],
     venue: "Théâtre des Capucins / Théâtres de la Ville de Luxembourg (Luxembourg)",
     image: "/2026-06-07-data-mama.jpg",
-    desc: html`Showing of the TalentLAB residency as a collective Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)
+    desc: html`Showing of the TalentLAB residency as a collective Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda). Photo: Bohumil Kostohryz
     `
   },
   {
@@ -41,7 +41,7 @@ Screenshot by Luna, Livio, Olivia and Lars (<a href="https://editor.p5js.org/lae
     title: "play with display",
     type: ["workshop"],
     topic: ["hydra"],
-    // image: "/nodecode-ws.jpg",
+    image: "/2026-02-19-display.jpeg",
     collab: ["Naoto Hieda"],
     venue: "display / NODE (Germany)",
     links: ["https://nodeforum.org/announcements/workshop-play-with-display/"],
