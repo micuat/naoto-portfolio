@@ -1,11 +1,22 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("June 7, 2026"),
+    title: "Data Trash Snack Bar",
+    type: ["residency"],
+    topic: ["dance"],
+    collab: ["Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)"],
+    venue: "Théâtre des Capucins / Théâtres de la Ville de Luxembourg (Luxembourg)",
+    image: "/2026-06-07-data-mama.jpg",
+    desc: html`Showing of the TalentLAB residency as a collective Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)
+    `
+  },
+  {
     start: new Date("March 1, 2026"),
     title: "TalentLAB",
     type: ["residency"],
     topic: ["dance"],
-    collab: ["Data Mama"],
+    collab: ["Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)"],
     venue: "Théâtres de la Ville de Luxembourg (Luxembourg)",
     image: "/2026-03-01-talent.jpg",
     desc: html`Residency as a collective Data Mama (Dan Xu, Yurika Yamamoto, Pinyao Liu and Naoto Hieda)
