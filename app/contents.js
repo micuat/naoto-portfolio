@@ -1,6 +1,18 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("July 14, 2026"),
+    title: "Best Practices in Under Construction",
+    type: ["installation"],
+    topic: ["hydra", "dance"],
+    venue: "KHM Rundgang (Germany)",
+    collab: ["Naoto Hieda", "Jorge Guevara"],
+    image: "/2026-07-14-banner.jpeg",
+    desc: html`
+      Exhibited at KHM Rundgang 2026, curated by Heike Ander. Photo: Esther Neumann
+    `
+  },
+  {
     start: new Date("June 7, 2026"),
     title: "Data Trash Snack Bar",
     type: ["residency"],
