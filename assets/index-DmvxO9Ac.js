@@ -2036,6 +2036,18 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("July 14, 2026"),
+    title: "Best Practices in Under Construction",
+    type: ["installation"],
+    topic: ["hydra", "dance"],
+    venue: "KHM Rundgang (Germany)",
+    collab: ["Naoto Hieda", "Jorge Guevara"],
+    image: "/2026-07-14-banner.jpeg",
+    desc: html`
+      Exhibited at KHM Rundgang 2026, curated by Heike Ander. Photo: Esther Neumann
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("June 7, 2026"),
     title: "Data Trash Snack Bar",
     type: ["residency"],
