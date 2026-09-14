@@ -2036,6 +2036,17 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("September 4, 2026"),
+    title: "Pixlar o Ljud LIVE",
+    type: ["performance"],
+    topic: ["hydra"],
+    image: "/2026-09-04-pixlar.jpg",
+    collab: ["Cynthia Forlorne", "Naoto"],
+    venue: "Hypnos Theatre (Sweden)",
+    links: ["https://dukop.dk/da/event/pixlar-o-ljud-live/10275/"],
+    desc: html``
+  },
+  {
     start: /* @__PURE__ */ new Date("July 14, 2026"),
     title: "Best Practices in Under Construction",
     type: ["installation"],
