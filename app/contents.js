@@ -1,6 +1,19 @@
 import html from "choo/html";
 var sc = [
   {
+    start: new Date("July 17, 2026"),
+    title: "Making a portfolio on Neocities",
+    type: ["workshop"],
+    topic: ["blog"],
+    collab: [],
+    venue: "CC Fest (online)",
+    // image: "/IMG_0460.jpg",
+    // links: ["https://ccfest-2024-blog.glitch.me/"],
+    desc: html`
+    CCFest part of Processing Community Day 2026
+    `
+  },
+  {
     start: new Date("September 4, 2026"),
     title: "Pixlar o Ljud LIVE",
     type: ["performance"],
