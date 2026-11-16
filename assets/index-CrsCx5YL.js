@@ -2036,6 +2036,50 @@ var htmlExports = requireHtml();
 const html = /* @__PURE__ */ getDefaultExportFromCjs(htmlExports);
 var sc = [
   {
+    start: /* @__PURE__ */ new Date("November 10, 2026"),
+    title: "grid.glitches.me",
+    type: ["lecture"],
+    topic: ["net art"],
+    collab: [],
+    venue: "Spiel und Objekt, HfS Ernst Busch (Germany)",
+    image: "/2026-11-10-grid.png",
+    // links: ["https://ccfest-2024-blog.glitch.me/"],
+    desc: html`
+    CCFest part of Processing Community Day 2026
+    `
+  },
+  {
+    start: /* @__PURE__ */ new Date("November 9, 2026"),
+    title: "How to Make a Website",
+    type: ["workshop"],
+    topic: ["net art"],
+    collab: [],
+    venue: "Spiel und Objekt, HfS Ernst Busch (Germany)",
+    image: "/2026-11-09-hfs.jpg",
+    // links: ["https://ccfest-2024-blog.glitch.me/"],
+    desc: html`
+    Student presentation can be seen here (some are only for mobile) <br>
+    <a href="https://arybay.neocities.org/" target="_blank">https://arybay.neocities.org/</a> <br>
+    <a href="https://flynnundobjekt.neocities.org/Horse/" target="_blank">https://flynnundobjekt.neocities.org/Horse/</a> <br>
+    <a href="https://ulliversum.neocities.org/" target="_blank">https://ulliversum.neocities.org/</a> <br>
+    <a href="https://maracesare.neocities.org/" target="_blank">https://maracesare.neocities.org/</a> <br>
+    <a href="https://marianaha.neocities.org/Theunderworld1" target="_blank">https://marianaha.neocities.org/Theunderworld1</a>
+    `
+  },
+  {
+    start: /* @__PURE__ */ new Date("October 17, 2026"),
+    title: "Making a portfolio on Neocities",
+    type: ["workshop"],
+    topic: ["blog"],
+    collab: [],
+    venue: "CC Fest (online)",
+    // image: "/IMG_0460.jpg",
+    // links: ["https://ccfest-2024-blog.glitch.me/"],
+    desc: html`
+    CCFest part of Processing Community Day 2026
+    `
+  },
+  {
     start: /* @__PURE__ */ new Date("September 4, 2026"),
     title: "Pixlar o Ljud LIVE",
     type: ["performance"],
