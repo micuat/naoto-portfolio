@@ -2043,9 +2043,8 @@ var sc = [
     collab: [],
     venue: "Spiel und Objekt, HfS Ernst Busch (Germany)",
     image: "/2026-11-10-grid.png",
-    // links: ["https://ccfest-2024-blog.glitch.me/"],
-    desc: html`
-    CCFest part of Processing Community Day 2026
+    links: ["https://www.spielundobjekt.de/#projekt/artist-talk-naoto-hieda"],
+    desc: html`The netart work grid.glitches.me is a proposal to collectively find possible permutations of grids. My first Processing sketch back in 2009 was a simple grid of vertical and horizontal lines. Since then, I have explored numerous patterns, and always came back to a simple grid. Now, I want to question how we can transform the rigidity of a grid through collective actions of gridding, drawing, knotting, twisting and remixing. The presentation includes the background of Naoto's work and a guided tutorial on how to gridding.
     `
   },
   {
